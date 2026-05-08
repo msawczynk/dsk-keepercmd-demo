@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "tenant": "acme-demo",
+  "run_id": "demo-run-2026-05-09",
+  "exported_at": "2026-05-09T00:00:04Z",
+  "record_count": 3,
+  "records": [
+    {
+      "uid": "AAA111bbb222ccc333d",
+      "title": "Demo-Login-1",
+      "type": "login",
+      "folder_path": "/Shared/Engineering",
+      "shared_folder_uid": "SF_ENG_001",
+      "owner_email": "alice@acme.demo",
+      "custom_fields": {}
+    },
+    {
+      "uid": "BBB222ccc333ddd444e",
+      "title": "Demo-Login-2",
+      "type": "login",
+      "folder_path": "/Shared/Engineering",
+      "shared_folder_uid": "SF_ENG_001",
+      "owner_email": "bob@acme.demo",
+      "custom_fields": {}
+    },
+    {
+      "uid": "CCC333ddd444eee555f",
+      "title": "Demo-Note-1",
+      "type": "secureNote",
+      "folder_path": "/Shared/HR",
+      "shared_folder_uid": "SF_HR_001",
+      "owner_email": "carol@acme.demo",
+      "custom_fields": {}
+    }
+  ]
+}

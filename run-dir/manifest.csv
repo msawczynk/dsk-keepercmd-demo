@@ -1,0 +1,4 @@
+uid,title,type,folder_path,shared_folder_uid,owner_email,migrated_at,dsk_adoptable
+AAA111bbb222ccc333d,Demo-Login-1,login,/Shared/Engineering,SF_ENG_001,alice@acme.demo,2026-05-09T00:00:01Z,true
+BBB222ccc333ddd444e,Demo-Login-2,login,/Shared/Engineering,SF_ENG_001,bob@acme.demo,2026-05-09T00:00:02Z,true
+CCC333ddd444eee555f,Demo-Note-1,secureNote,/Shared/HR,SF_HR_001,carol@acme.demo,2026-05-09T00:00:03Z,true
