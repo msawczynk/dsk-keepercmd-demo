@@ -1,0 +1,5 @@
+# Default reviewers for any change
+* @msawczynk
+
+# Specific paths get specific reviewers (when applicable)
+# Example: /security/ @msawczynk @security-team
