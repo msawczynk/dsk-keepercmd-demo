@@ -21,6 +21,7 @@ jobs:
 
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DSK_INSTALL_TOKEN: ${{ secrets.DSK_INSTALL_TOKEN }}
 
     steps:
       - name: Checkout
@@ -46,16 +47,35 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install DSK
-        run: pip install git+https://github.com/msawczynk/dsk.git
+      - name: Install DSK (private)
+        if: ${{ env.DSK_INSTALL_TOKEN != '' }}
+        run: |
+          pip install "dsk @ git+https://${DSK_INSTALL_TOKEN}@github.com/msawczynk/dsk.git"
+          echo "DSK_AVAILABLE=true" >> "${GITHUB_ENV}"
+
+      - name: Skip DSK-dependent gates
+        if: ${{ env.DSK_INSTALL_TOKEN == '' }}
+        run: |
+          echo "::warning::DSK_INSTALL_TOKEN secret missing - skipping dsk-dependent gates"
+          echo "DSK_AVAILABLE=false" >> "${GITHUB_ENV}"
+          cat > /tmp/rehearsal-report.xml <<'XML'
+          <testsuite name="nightly-rehearsal" tests="1" skipped="1" failures="0" errors="0">
+            <testcase classname="nightly-rehearsal" name="dsk-dependent-gates">
+              <skipped message="DSK_INSTALL_TOKEN secret missing"/>
+            </testcase>
+          </testsuite>
+          XML
 
       - name: Gate 5 — import-from-keepercmd dry-run (regression guard)
+        if: ${{ env.DSK_AVAILABLE == 'true' }}
         run: dsk import-from-keepercmd "$RUN_DIR" --dry-run
 
       - name: Import — write manifests to /tmp/rehearsal-out/
+        if: ${{ env.DSK_AVAILABLE == 'true' }}
         run: dsk import-from-keepercmd "$RUN_DIR" --output /tmp/rehearsal-out/
 
       - name: Rehearse-report (stub — exits 1 until D9 R1 implements it)
+        if: ${{ env.DSK_AVAILABLE == 'true' }}
         run: |
           mkdir -p /tmp
           dsk rehearse-report "$RUN_DIR" --format junit --output /tmp/rehearsal-report.xml || true

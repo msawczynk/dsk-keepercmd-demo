@@ -10,6 +10,8 @@ jobs:
   e2e:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      DSK_INSTALL_TOKEN: ${{ secrets.DSK_INSTALL_TOKEN }}
 
     steps:
       - name: Checkout dsk-keepercmd-demo
@@ -20,13 +22,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install DSK
-        run: pip install git+https://github.com/msawczynk/dsk.git@main
+      - name: Install DSK (private)
+        if: ${{ env.DSK_INSTALL_TOKEN != '' }}
+        run: |
+          pip install "dsk @ git+https://${DSK_INSTALL_TOKEN}@github.com/msawczynk/dsk.git"
+          echo "DSK_AVAILABLE=true" >> "${GITHUB_ENV}"
+
+      - name: Skip DSK round-trip
+        if: ${{ env.DSK_INSTALL_TOKEN == '' }}
+        run: |
+          echo "::warning::DSK_INSTALL_TOKEN secret missing - skipping dsk-dependent gate 5"
+          echo "DSK_AVAILABLE=false" >> "${GITHUB_ENV}"
 
       - name: Gate 1 — run-dir integrity (sha256sum)
         run: sha256sum -c run-dir/SHA256SUMS.txt
 
       - name: Gate 5 — DSK round-trip (import-from-keepercmd --dry-run)
+        if: ${{ env.DSK_AVAILABLE == 'true' }}
         id: gate5
         run: |
           dsk import-from-keepercmd run-dir/ --dry-run --output /tmp/demo-import-out
