@@ -28,9 +28,10 @@ writes a run-dir with exported records, a manifest CSV, and integrity sidecar fi
 **Step 2 — Import:** `dsk import-from-keepercmd run-dir/` consumes the run-dir, verifies the
 audit chain and SHA256SUMS, detects any suspect ownership markers, and emits DSK YAML manifests.
 
-**Step 3 — Plan:** `dsk plan` compares the DSK manifests against the live Keeper state.
-On first import of freshly migrated records, plan should show zero drift (records are now
-adopted declaratively).
+**Step 3 — Plan:** `dsk plan` compares the DSK manifests against the selected provider.
+The local demo uses DSK's mock provider, so it shows create rows and returns exit 2
+(`changes present`). Against a live tenant containing the freshly migrated records,
+the same manifest should plan clean once those records are adopted declaratively.
 
 ---
 
@@ -58,7 +59,7 @@ make demo-all
 ## What's in this repo
 
 ```
-run-dir/                 ← synthetic keeperCMD run-dir fixture (3 records)
+run-dir/                 ← synthetic keeperCMD run-dir fixture
   audit.log              ← migration event log (chain-verified by dsk)
   manifest.csv           ← record metadata CSV (v1.1 OUTPUT_CONTRACT)
   manifest.csv.sha256    ← SHA256 sidecar for manifest.csv tamper detection
@@ -133,7 +134,8 @@ gh workflow run nightly-rehearsal.yml --field run_dir=path/to/your-run-dir
 ### Path B (real anonymised fixture)
 
 Set the `REHEARSAL_RUN_DIR` repository secret to the path of a checked-out anonymised run-dir.
-This is not yet wired — pending the **D1 fixture** from c3po.
+The nightly workflow already consumes this secret when present; until the **D1 fixture** lands,
+it falls back to the synthetic `run-dir/` fixture.
 
 ---
 

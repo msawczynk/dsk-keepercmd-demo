@@ -27,8 +27,8 @@ demo-import:
 	    --dry-run
 
 demo-plan:
-	@echo "=== Step 3: DSK plan — expected: clean (zero drift) ==="
-	python3 -m dsk.cli plan $(OUT_DIR)/manifest.yaml
+	@echo "=== Step 3: DSK plan — mock provider shows creates (exit 2 is expected) ==="
+	python3 -m dsk.cli plan $(OUT_DIR)/manifest.yaml || test $$? -eq 2
 
 demo-clean:
 	rm -rf $(OUT_DIR)
