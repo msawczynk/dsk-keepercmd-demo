@@ -35,7 +35,7 @@ jobs:
           echo "DSK_AVAILABLE=false" >> "${GITHUB_ENV}"
 
       - name: Gate 1 — run-dir integrity (sha256sum)
-        run: sha256sum -c run-dir/SHA256SUMS.txt
+        run: cd run-dir && sha256sum -c SHA256SUMS.txt
 
       - name: Gate 5 — DSK round-trip (import-from-keepercmd --dry-run)
         if: ${{ env.DSK_AVAILABLE == 'true' }}
