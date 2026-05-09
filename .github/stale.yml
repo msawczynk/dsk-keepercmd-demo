@@ -1,0 +1,24 @@
+days-before-stale: 60
+days-before-close: 14
+stale-issue-label: status:review
+stale-pr-label: status:review
+exempt-issue-labels:
+  - priority:P0
+  - priority:P1
+  - type:security
+  - status:blocked
+exempt-pr-labels:
+  - priority:P0
+  - priority:P1
+  - type:security
+  - status:blocked
+stale-issue-message: >
+  This issue has been quiet for 60 days and is marked for review. Add
+  status:blocked, priority:P0, priority:P1, or type:security to exempt it.
+close-issue-message: >
+  Closing after 14 additional days without activity. Reopen if this is still
+  actionable.
+stale-pr-message: >
+  This pull request has been quiet for 60 days and is marked for review.
+close-pr-message: >
+  Closing after 14 additional days without activity. Reopen when ready.

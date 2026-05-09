@@ -1,0 +1,25 @@
+name: No Co-Author Tool Trailers
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  no-tool-coauthor-trailers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Warn on Cursor/Claude Co-Authored-By trailers
+        shell: bash
+        run: |
+          # R5.x policy rollout: warn-only for one week, then switch this
+          # check to enforcement unless Bob/Midas choose a different cadence.
+          git fetch origin main --quiet || true
+          matches="$(git log --pretty=%B origin/main..HEAD | grep -iE 'Co-?[Aa]uthored-?[Bb]y:.*(Cursor|Claude)' || true)"
+          if [ -n "$matches" ]; then
+            echo "::warning title=Tool co-author trailer detected::R5.x forbids Cursor/Claude Co-Authored-By trailers. Warn-only until the one-week observation window ends."
+            printf '%s\n' "$matches"
+          fi
+          exit 0
