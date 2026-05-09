@@ -10,6 +10,14 @@ This repo shows the complete integration story between
 [keeperCMD](https://github.com/jlima8900/keeperCMD) (Joao's Keeper tenant-migration toolkit)
 and [dsk](https://github.com/msawczynk/dsk) (Martin's declarative Keeper SDK).
 
+## Status
+
+- **Maturity:** beta demo fixture, absorption-readiness phase.
+- **Current posture:** synthetic fixture is local-validation ready; Path B real anonymized fixture is still operator-gated.
+- **Docs site:** <https://msawczynk.github.io/dsk/>
+- **Security policy:** [`SECURITY.md`](SECURITY.md)
+- **Contributing:** [`CONTRIBUTING.md`](CONTRIBUTING.md)
+
 ---
 
 ## The story in three steps
@@ -154,6 +162,7 @@ it falls back to the synthetic `run-dir/` fixture.
 
 - [CHANGELOG.md](CHANGELOG.md) — demo fixture and CI history.
 - [msawczynk/dsk](https://github.com/msawczynk/dsk) — declarative Keeper SDK
-- [DSK OUTPUT_CONTRACT v1.2 runbook](https://github.com/msawczynk/declarative-sdk-for-k/blob/main/docs/output-contract-v1.2-absorption-runbook.md) — signed run-dir absorption plan
+- [DSK docs site](https://msawczynk.github.io/dsk/) — architecture, security, ADRs, and Keeper onboarding.
+- [DSK OUTPUT_CONTRACT v1.2 runbook](https://github.com/msawczynk/dsk/blob/main/docs/output-contract-v1.2-absorption-runbook.md) — signed run-dir absorption plan
 - [jlima8900/keeperCMD](https://github.com/jlima8900/keeperCMD) — Keeper tenant-migration toolkit
 - [msawczynk/agent-collab](https://github.com/msawczynk/agent-collab) — Midas ↔ Bob collaboration channel
