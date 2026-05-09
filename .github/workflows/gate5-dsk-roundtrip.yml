@@ -29,7 +29,7 @@ jobs:
 
     steps:
       - name: Checkout dsk-keepercmd-demo
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       - name: Set up Python venv
         run: |
@@ -41,7 +41,7 @@ jobs:
         if: ${{ env.DSK_INSTALL_TOKEN != '' }}
         run: |
           source .venv/bin/activate
-          pip install "dsk @ git+https://${DSK_INSTALL_TOKEN}@github.com/msawczynk/dsk.git"
+          pip install "dsk @ git+https://${DSK_INSTALL_TOKEN}@github.com/msawczynk/dsk.git@v2.19.0"
           echo "DSK_AVAILABLE=true" >> "${GITHUB_ENV}"
 
       - name: Skip DSK round-trip
