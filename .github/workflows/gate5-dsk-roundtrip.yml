@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   e2e:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, rocky, dsk-keepercmd-demo]
     timeout-minutes: 10
     env:
       DSK_INSTALL_TOKEN: ${{ secrets.DSK_INSTALL_TOKEN }}
@@ -31,16 +31,16 @@ jobs:
       - name: Checkout dsk-keepercmd-demo
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: "pip"
-          cache-dependency-path: ".github/workflows/gate5-dsk-roundtrip.yml"
+      - name: Set up Python venv
+        run: |
+          python3.11 -m venv .venv || python3 -m venv .venv
+          source .venv/bin/activate
+          python -m pip install --upgrade pip
 
       - name: Install DSK (private)
         if: ${{ env.DSK_INSTALL_TOKEN != '' }}
         run: |
+          source .venv/bin/activate
           pip install "dsk @ git+https://${DSK_INSTALL_TOKEN}@github.com/msawczynk/dsk.git"
           echo "DSK_AVAILABLE=true" >> "${GITHUB_ENV}"
 
@@ -57,6 +57,7 @@ jobs:
         if: ${{ env.DSK_AVAILABLE == 'true' }}
         id: gate5
         run: |
+          source .venv/bin/activate
           dsk import-from-keepercmd run-dir/ --dry-run --output /tmp/demo-import-out
           EXIT_CODE=$?
           if [ "$EXIT_CODE" -ne 0 ]; then
