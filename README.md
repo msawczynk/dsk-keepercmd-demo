@@ -140,7 +140,7 @@ This is not yet wired — pending the **D1 fixture** from c3po.
 ## Co-authors
 
 - **Martin (Midas)** — DSK side: Makefile targets, `manifests/` output, overall repo setup
-- **Joao (Bob the bower)** — keeperCMD side: `run-dir/` real fixture, README keeperCMD perspective
+- **Joao (Bob the bower)** — keeperCMD side: keeperCMD contract context, D1 real-fixture follow-up, README keeperCMD perspective
 
 ---
 
