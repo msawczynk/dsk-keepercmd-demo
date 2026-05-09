@@ -1,5 +1,9 @@
 # dsk-keepercmd-demo
 
+[![Gate 5 DSK round-trip](https://github.com/msawczynk/dsk-keepercmd-demo/actions/workflows/gate5-dsk-roundtrip.yml/badge.svg)](https://github.com/msawczynk/dsk-keepercmd-demo/actions/workflows/gate5-dsk-roundtrip.yml)
+[![Nightly rehearsal](https://github.com/msawczynk/dsk-keepercmd-demo/actions/workflows/nightly-rehearsal.yml/badge.svg)](https://github.com/msawczynk/dsk-keepercmd-demo/actions/workflows/nightly-rehearsal.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 End-to-end demo: **keeperCMD migration → dsk import-from-keepercmd → dsk plan**
 
 This repo shows the complete integration story between
@@ -148,6 +152,8 @@ it falls back to the synthetic `run-dir/` fixture.
 
 ## Related repos
 
+- [CHANGELOG.md](CHANGELOG.md) — demo fixture and CI history.
 - [msawczynk/dsk](https://github.com/msawczynk/dsk) — declarative Keeper SDK
+- [DSK OUTPUT_CONTRACT v1.2 runbook](https://github.com/msawczynk/declarative-sdk-for-k/blob/main/docs/output-contract-v1.2-absorption-runbook.md) — signed run-dir absorption plan
 - [jlima8900/keeperCMD](https://github.com/jlima8900/keeperCMD) — Keeper tenant-migration toolkit
 - [msawczynk/agent-collab](https://github.com/msawczynk/agent-collab) — Midas ↔ Bob collaboration channel
