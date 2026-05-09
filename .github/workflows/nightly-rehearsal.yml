@@ -1,7 +1,7 @@
 name: nightly-rehearsal
 
 # For Path B (real anonymised fixture), set `REHEARSAL_RUN_DIR` secret pointing to a
-# checked-out anonymised run-dir. Not yet wired — pending D1 fixture from c3po.
+# checked-out anonymised run-dir. Consumer wired below (min2); synthetic job defaults to repo `run-dir/`.
 
 on:
   schedule:
@@ -26,6 +26,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Resolve rehearsal run directory (consumer wired per Bob review min2)
+        env:
+          REHEARSAL_RUN_DIR: ${{ secrets.REHEARSAL_RUN_DIR }}
+          INPUT_RUN_DIR: ${{ github.event.inputs.run_dir }}
+        run: |
+          if [ -z "${REHEARSAL_RUN_DIR}" ]; then
+            echo "::warning::REHEARSAL_RUN_DIR secret is not set — using workflow input or fixture run-dir/ as fallback"
+            RUN_DIR="${INPUT_RUN_DIR:-run-dir}"
+          else
+            echo "REHEARSAL_RUN_DIR is configured (length ${#REHEARSAL_RUN_DIR})"
+            RUN_DIR="${REHEARSAL_RUN_DIR}"
+          fi
+          echo "Effective RUN_DIR=${RUN_DIR}"
+          echo "RUN_DIR=${RUN_DIR}" >> "${GITHUB_ENV}"
+
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
@@ -35,15 +50,15 @@ jobs:
         run: pip install git+https://github.com/msawczynk/dsk.git
 
       - name: Gate 5 — import-from-keepercmd dry-run (regression guard)
-        run: dsk import-from-keepercmd run-dir --dry-run
+        run: dsk import-from-keepercmd "$RUN_DIR" --dry-run
 
       - name: Import — write manifests to /tmp/rehearsal-out/
-        run: dsk import-from-keepercmd run-dir --output /tmp/rehearsal-out/
+        run: dsk import-from-keepercmd "$RUN_DIR" --output /tmp/rehearsal-out/
 
       - name: Rehearse-report (stub — exits 1 until D9 R1 implements it)
         run: |
           mkdir -p /tmp
-          dsk rehearse-report run-dir --format junit --output /tmp/rehearsal-report.xml || true
+          dsk rehearse-report "$RUN_DIR" --format junit --output /tmp/rehearsal-report.xml || true
 
       - name: Upload rehearsal-report artifact
         uses: actions/upload-artifact@v4
