@@ -1,0 +1,38 @@
+name: gate-5-dsk-roundtrip
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout dsk-keepercmd-demo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install DSK
+        run: pip install git+https://github.com/msawczynk/dsk.git@main
+
+      - name: Gate 1 — run-dir integrity (sha256sum)
+        run: sha256sum -c run-dir/SHA256SUMS.txt
+
+      - name: Gate 5 — DSK round-trip (import-from-keepercmd --dry-run)
+        id: gate5
+        run: |
+          dsk import-from-keepercmd run-dir/ --dry-run --output /tmp/demo-import-out
+          EXIT_CODE=$?
+          if [ "$EXIT_CODE" -ne 0 ]; then
+            echo "Gate 5 FAILED — dsk import-from-keepercmd exited $EXIT_CODE" >&2
+            exit 1
+          fi
+          echo "Gate 5 passed — DSK consumed run-dir without errors"
