@@ -22,11 +22,13 @@ demo-verify:
 demo-import:
 	@echo "=== Step 2: Import into DSK manifests ==="
 	mkdir -p $(OUT_DIR)
-	dsk import-from-keepercmd $(RUN_DIR) --output-dir $(OUT_DIR)
+	python3 -m dsk.cli import-from-keepercmd $(RUN_DIR) \
+	    --output $(OUT_DIR)/manifest.yaml \
+	    --dry-run
 
 demo-plan:
 	@echo "=== Step 3: DSK plan — expected: clean (zero drift) ==="
-	dsk plan --manifest-dir $(OUT_DIR)
+	python3 -m dsk.cli plan $(OUT_DIR)/manifest.yaml
 
 demo-clean:
 	rm -rf $(OUT_DIR)

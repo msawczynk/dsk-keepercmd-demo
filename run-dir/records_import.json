@@ -7,7 +7,7 @@
     {
       "uid": "AAA111bbb222ccc333d",
       "title": "Demo-Login-1",
-      "type": "login",
+      "$type": "login",
       "fields": {
         "login": "alice@acme.demo",
         "password": "REDACTED",
@@ -19,7 +19,7 @@
     {
       "uid": "BBB222ccc333ddd444e",
       "title": "Demo-Login-2",
-      "type": "login",
+      "$type": "login",
       "fields": {
         "login": "bob@acme.demo",
         "password": "REDACTED",
@@ -31,7 +31,7 @@
     {
       "uid": "CCC333ddd444eee555f",
       "title": "Demo-Note-1",
-      "type": "secureNote",
+      "$type": "secureNote",
       "fields": {
         "notes": "REDACTED"
       },
