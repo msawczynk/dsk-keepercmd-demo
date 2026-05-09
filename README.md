@@ -98,6 +98,45 @@ Check the current status in the [Actions tab](../../actions).
 
 ---
 
+## CI / Nightly Rehearsal
+
+The workflow [`.github/workflows/nightly-rehearsal.yml`](.github/workflows/nightly-rehearsal.yml)
+runs nightly at 02:00 UTC (and can be triggered manually) as part of the **D9 R3** rehearsal loop.
+
+### What it does
+
+1. **Gate 5 (dry-run)** — `dsk import-from-keepercmd run-dir --dry-run` acts as the regression
+   guard. A non-zero exit here is a real failure and will break the job.
+2. **Import** — `dsk import-from-keepercmd run-dir --output /tmp/rehearsal-out/` writes manifests
+   to a temp directory to exercise the full write path.
+3. **Rehearse-report (stub)** — `dsk rehearse-report run-dir --format junit` is guarded with
+   `|| true` because the command exits 1 until **D9 R1** implements it. This keeps CI green while
+   the stub is in place.
+4. **Artifact upload** — `rehearsal-report.xml` is uploaded as a GitHub Actions artifact (even if
+   empty/stub) so it is visible in the Actions UI.
+5. **Regression issue** — if the job fails on a scheduled run (not a manual trigger), a GitHub
+   issue is automatically created with title `[regression] nightly rehearsal failed YYYY-MM-DD`
+   linking to the failed run.
+
+### Trigger manually
+
+```bash
+gh workflow run nightly-rehearsal.yml
+```
+
+To point at a custom run-dir:
+
+```bash
+gh workflow run nightly-rehearsal.yml --field run_dir=path/to/your-run-dir
+```
+
+### Path B (real anonymised fixture)
+
+Set the `REHEARSAL_RUN_DIR` repository secret to the path of a checked-out anonymised run-dir.
+This is not yet wired — pending the **D1 fixture** from c3po.
+
+---
+
 ## Co-authors
 
 - **Martin (Midas)** — DSK side: Makefile targets, `manifests/` output, overall repo setup

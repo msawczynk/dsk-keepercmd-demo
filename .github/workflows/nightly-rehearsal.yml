@@ -1,0 +1,85 @@
+name: nightly-rehearsal
+
+# For Path B (real anonymised fixture), set `REHEARSAL_RUN_DIR` secret pointing to a
+# checked-out anonymised run-dir. Not yet wired — pending D1 fixture from c3po.
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 02:00 UTC nightly
+  workflow_dispatch:
+    inputs:
+      run_dir:
+        description: 'Path to run-dir (leave blank for synthetic demo fixture)'
+        required: false
+        default: 'run-dir'
+
+jobs:
+  rehearsal-synthetic:
+    name: Rehearsal — synthetic fixture
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install DSK
+        run: pip install git+https://github.com/msawczynk/dsk.git
+
+      - name: Gate 5 — import-from-keepercmd dry-run (regression guard)
+        run: dsk import-from-keepercmd run-dir --dry-run
+
+      - name: Import — write manifests to /tmp/rehearsal-out/
+        run: dsk import-from-keepercmd run-dir --output /tmp/rehearsal-out/
+
+      - name: Rehearse-report (stub — exits 1 until D9 R1 implements it)
+        run: |
+          mkdir -p /tmp
+          dsk rehearse-report run-dir --format junit --output /tmp/rehearsal-report.xml || true
+
+      - name: Upload rehearsal-report artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rehearsal-report
+          path: /tmp/rehearsal-report.xml
+          if-no-files-found: warn
+
+      - name: Create regression issue on schedule failure
+        if: failure() && github.event_name == 'schedule'
+        run: |
+          DATESTAMP=$(date -u '+%Y-%m-%d')
+          gh issue create \
+            --title "[regression] nightly rehearsal failed ${DATESTAMP}" \
+            --body "Nightly rehearsal job failed. See run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --label "regression,ci"
+
+  rehearsal-report-upload:
+    name: Rehearsal report — print to log
+    runs-on: ubuntu-latest
+    needs: rehearsal-synthetic
+    if: always()
+
+    steps:
+      - name: Download rehearsal-report artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: rehearsal-report
+          path: /tmp/artifacts
+
+      - name: Print rehearsal report XML to job log
+        run: |
+          echo "=== rehearsal-report.xml ==="
+          if [ -f /tmp/artifacts/rehearsal-report.xml ]; then
+            cat /tmp/artifacts/rehearsal-report.xml
+          else
+            echo "(no report file — stub not yet implemented)"
+          fi
