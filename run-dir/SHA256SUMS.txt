@@ -1,8 +1,3 @@
-# SHA256SUMS — keeperCMD record export digests (v1.1 OUTPUT_CONTRACT)
-# Each line: <sha256hex>  <filename>
-# This file is written atomically at migration end before any DSK consumer can run.
-# Placeholder: real run would emit one line per exported record JSON.
-# Bob's keeperCMD run-dir fixture will replace these with real digests.
-#
-# Example format (real line):
-#   a3f1c2d4e5b6...  AAA111bbb222ccc333d.json
+5a1137199b738a7a86402473fd674d37080502d3d20b7a37471a29cee015fc67  records_import.json
+66b2d2ddf8f7336c7d12dc7537c4e1c0dc7c68110d4e0395abe36ccc729b9231  inventory.json
+5534f042dd0194411130dc2e3f946c9ea00a694815843b7031a3618533813693  manifest.csv

@@ -15,8 +15,9 @@ help:
 	@echo "  demo-clean    Remove generated manifests/"
 
 demo-verify:
-	@echo "=== Step 1: Verify keeperCMD run-dir ==="
-	dsk import-from-keepercmd $(RUN_DIR) --dry-run --verbose
+	@echo "=== Step 1: Verify keeperCMD run-dir integrity ==="
+	cd $(RUN_DIR) && sha256sum -c SHA256SUMS.txt
+	@echo "SHA256SUMS OK"
 
 demo-import:
 	@echo "=== Step 2: Import into DSK manifests ==="
