@@ -20,7 +20,7 @@ concurrency:
 jobs:
   rehearsal-synthetic:
     name: Rehearsal — synthetic fixture
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, rocky, dsk-keepercmd-demo]
     timeout-minutes: 15
 
     env:
@@ -46,16 +46,16 @@ jobs:
           echo "Effective RUN_DIR=${RUN_DIR}"
           echo "RUN_DIR=${RUN_DIR}" >> "${GITHUB_ENV}"
 
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: "pip"
-          cache-dependency-path: ".github/workflows/nightly-rehearsal.yml"
+      - name: Set up Python venv
+        run: |
+          python3.11 -m venv .venv || python3 -m venv .venv
+          source .venv/bin/activate
+          python -m pip install --upgrade pip
 
       - name: Install DSK (private)
         if: ${{ env.DSK_INSTALL_TOKEN != '' }}
         run: |
+          source .venv/bin/activate
           pip install "dsk @ git+https://${DSK_INSTALL_TOKEN}@github.com/msawczynk/dsk.git"
           echo "DSK_AVAILABLE=true" >> "${GITHUB_ENV}"
 
@@ -74,15 +74,20 @@ jobs:
 
       - name: Gate 5 — import-from-keepercmd dry-run (regression guard)
         if: ${{ env.DSK_AVAILABLE == 'true' }}
-        run: dsk import-from-keepercmd "$RUN_DIR" --dry-run
+        run: |
+          source .venv/bin/activate
+          dsk import-from-keepercmd "$RUN_DIR" --dry-run
 
       - name: Import — write manifests to /tmp/rehearsal-out/
         if: ${{ env.DSK_AVAILABLE == 'true' }}
-        run: dsk import-from-keepercmd "$RUN_DIR" --output /tmp/rehearsal-out/
+        run: |
+          source .venv/bin/activate
+          dsk import-from-keepercmd "$RUN_DIR" --output /tmp/rehearsal-out/
 
       - name: Rehearse-report (stub — exits 1 until D9 R1 implements it)
         if: ${{ env.DSK_AVAILABLE == 'true' }}
         run: |
+          source .venv/bin/activate
           mkdir -p /tmp
           dsk rehearse-report "$RUN_DIR" --format junit --output /tmp/rehearsal-report.xml || true
 
@@ -105,7 +110,7 @@ jobs:
 
   rehearsal-report-upload:
     name: Rehearsal report — print to log
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, rocky, dsk-keepercmd-demo]
     needs: rehearsal-synthetic
     if: always()
     timeout-minutes: 5
