@@ -18,6 +18,10 @@ Versioning: this demo repo follows dated, unreleased operational changes.
 - `.github/stale.yml` adds auto-stale issue/PR review handling with P0/P1/security/blocked exemptions.
 - `.github/workflows/no-co-author-trailers.yml` warns on Cursor/Claude `Co-Authored-By` trailers during the R5.x one-week observation window.
 
+### Tests
+
+- Added focused pytest coverage for `scripts/gen_demo_audit_log.py`, including DSK audit-chain verification, empty input, larger generated chains, schema mismatch rejection, and idempotency.
+
 ### Known gaps
 
 - Real `run-dir-rehearsal16/` fixture is still pending Bob's push; synthetic `run-dir/`
