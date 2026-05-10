@@ -14,6 +14,9 @@ and [dsk](https://github.com/msawczynk/dsk) (Martin's declarative Keeper SDK).
 
 - **Maturity:** beta demo fixture, absorption-readiness phase.
 - **Current posture:** synthetic fixture is local-validation ready; Path B real anonymized fixture is still operator-gated.
+- **Runtime:** DSK Python 3.11+ via the sibling `dsk` install; this repo is not
+  a packaged Python distribution.
+- **Versioning:** dated demo changes only; see [`CHANGELOG.md`](CHANGELOG.md).
 - **Docs site:** <https://msawczynk.github.io/dsk/>
 - **Security policy:** [`SECURITY.md`](SECURITY.md)
 - **Contributing:** [`CONTRIBUTING.md`](CONTRIBUTING.md)
