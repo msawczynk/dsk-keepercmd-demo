@@ -1,0 +1,9 @@
+# Anonymized fixture manifest
+anonymized_at: 2026-05-09T20:32:43Z
+source_rehearsal: rehearsal-16
+keepercmd_version: v1.7.5
+anonymize_script_commit: HEAD
+validation_gates_passed: 1,2,3,4,7,8 (gates 5+6 deferred to operator)
+salt_sidecar: /tmp/anonymized-rehearsal-16.salt (NOT shipped with fixture; see SECURITY NOTE in script)
+
+See agent-collab:shared/context/d1-anonymization-spec.md for spec.

@@ -1,0 +1,54 @@
+{
+  "custom": [
+    {
+      "type": "appFiller",
+      "value": [
+        {
+          "applicationTitle": "zoom.us",
+          "macroSequence": "{USERNAME}{TAB}{PASSWORD}{ENTER}"
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1244"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    }
+  ],
+  "folders": [],
+  "notes": "",
+  "record_uid": "fN3aPxKx5hATtzTLaZNa5w",
+  "shared_folder_permissions": [],
+  "title": "name-1086",
+  "type": "login",
+  "user_permissions": []
+}

@@ -1,0 +1,66 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "3306"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "qZ9j5doj7eR4OTqUISFyJyZ6/uXaoWpSJI94ZGEiY84="
+      ]
+    },
+    {
+      "label": "",
+      "type": "databaseType",
+      "value": [
+        "mariadb"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "database": "mydb",
+            "protocol": "mysql",
+            "userRecords": [
+              "uqubydwr3JH7qpOR0da4G3"
+            ]
+          },
+          "portForward": {
+            "reusePort": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "UxYuaVl582iZIkK73RSPAS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "WPxgTBWVbEA2zThQfCY_Rl",
+  "shared_folder_permissions": [],
+  "title": "name-870",
+  "type": "pamDatabase",
+  "user_permissions": []
+}

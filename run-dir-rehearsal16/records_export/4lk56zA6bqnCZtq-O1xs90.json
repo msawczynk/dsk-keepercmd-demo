@@ -1,0 +1,80 @@
+{
+  "custom": [
+    {
+      "label": "name-1327",
+      "type": "text",
+      "value": [
+        "1ffe0dbd-029f-46d2-9a5e-3e52a0414850"
+      ]
+    },
+    {
+      "label": "name-1328",
+      "type": "text",
+      "value": [
+        "mom-storage-app"
+      ]
+    },
+    {
+      "label": "name-1329",
+      "type": "text",
+      "value": [
+        "wherediputit"
+      ]
+    },
+    {
+      "label": "name-1330",
+      "type": "text",
+      "value": [
+        "EXPO_TOKEN"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "privateKey": {}
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1371"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "SxK3ynuFdNdK37L8pDiXSG"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "4lk56zA6bqnCZtq-O1xs90",
+  "shared_folder_permissions": [],
+  "title": "name-239",
+  "type": "login",
+  "user_permissions": []
+}

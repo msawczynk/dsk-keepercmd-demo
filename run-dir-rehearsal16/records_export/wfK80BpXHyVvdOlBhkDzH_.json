@@ -1,0 +1,194 @@
+{
+  "custom": [
+    {
+      "label": "name-1191",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "name-1192",
+      "type": "text",
+      "value": [
+        "juanito"
+      ]
+    },
+    {
+      "label": "name-1193",
+      "type": "text",
+      "value": [
+        "hJUendw03pWK7uysSPnd5i"
+      ]
+    },
+    {
+      "label": "name-1194",
+      "type": "text",
+      "value": [
+        "pam gateway list"
+      ]
+    },
+    {
+      "label": "name-1195",
+      "type": "text",
+      "value": [
+        "pam project kcm-import --config \"hJUendw03pWK7uysSPnd5i\" --docker-detect --groups \"El Laboratorio*\" --yes"
+      ]
+    },
+    {
+      "label": "name-1196",
+      "type": "text",
+      "value": [
+        "pam project kcm-cleanup --name \"juanito\" --dry-run"
+      ]
+    },
+    {
+      "label": "name-1197",
+      "type": "text",
+      "value": [
+        "pam project kcm-cleanup --name \"juanito\" --yes"
+      ]
+    },
+    {
+      "label": "name-1198",
+      "type": "text",
+      "value": [
+        "pam project kcm-import --name \"juanito\" --folder-mode \"ksm\" --max-instances \"0\" --groups \"El Laboratorio*\" --docker-detect --yes"
+      ]
+    },
+    {
+      "label": "name-1199",
+      "type": "text",
+      "value": [
+        "pam project kcm-import --name \"juanito\" --folder-mode \"ksm\" --max-instances \"0\" --groups \"El Laboratorio*\" --docker-detect --yes"
+      ]
+    },
+    {
+      "label": "name-1200",
+      "type": "text",
+      "value": [
+        "Docker auto-detect"
+      ]
+    },
+    {
+      "label": "name-1201",
+      "type": "text",
+      "value": [
+        "Created: 130, Skipped: 0, Errors: 0"
+      ]
+    },
+    {
+      "label": "name-1202",
+      "type": "text",
+      "value": [
+        "Copy the \"Deploy Gateway\" field and run it in your terminal. The gateway should appear as \"connected\" within 60 seconds."
+      ]
+    },
+    {
+      "label": "name-1203",
+      "type": "text",
+      "value": [
+        "pam gateway list"
+      ]
+    },
+    {
+      "label": "name-1204",
+      "type": "text",
+      "value": [
+        "Some records were imported without passwords \u2014 add credentials in vault."
+      ]
+    },
+    {
+      "label": "name-1205",
+      "type": "text",
+      "value": [
+        "Open a PAM connection in the vault to verify it works."
+      ]
+    },
+    {
+      "label": "name-1206",
+      "type": "text",
+      "value": [
+        "pam project kcm-cleanup --name \"juanito\" --dry-run"
+      ]
+    },
+    {
+      "label": "name-1207",
+      "type": "text",
+      "value": [
+        "juanito Gateway"
+      ]
+    },
+    {
+      "label": "name-1208",
+      "type": "text",
+      "value": [
+        "pPrBABIALw08jg0WvBfB5k"
+      ]
+    },
+    {
+      "label": "name-1209",
+      "type": "text",
+      "value": [
+        "klbpC9h08LNy48n7aj3687"
+      ]
+    },
+    {
+      "label": "name-1210",
+      "type": "text",
+      "value": [
+        "juanito - Resources"
+      ]
+    },
+    {
+      "label": "name-1211",
+      "type": "text",
+      "value": [
+        "JmAV5U6Uhn4J6RvLoLSTIb"
+      ]
+    },
+    {
+      "label": "name-1212",
+      "type": "text",
+      "value": [
+        "juanito - Users"
+      ]
+    },
+    {
+      "label": "name-1213",
+      "type": "text",
+      "value": [
+        "O98QRE2OCNgrhl4vie3iHo"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "name-1189",
+      "type": "note",
+      "value": []
+    },
+    {
+      "label": "name-1190",
+      "type": "date",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": null
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "wfK80BpXHyVvdOlBhkDzH_",
+  "shared_folder_permissions": [],
+  "title": "name-642",
+  "type": "encryptedNotes",
+  "user_permissions": []
+}

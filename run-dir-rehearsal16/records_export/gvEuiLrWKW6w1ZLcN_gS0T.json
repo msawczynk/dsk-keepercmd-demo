@@ -1,0 +1,37 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1189",
+      "type": "note",
+      "value": []
+    },
+    {
+      "label": "name-1190",
+      "type": "date",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": [
+        "kSZ8bRrz0Ts9PwTkQbQvas",
+        "IwAis3-Q6EN7w7f_E3juKo",
+        "9TX5mdOnXdI-XR54Ejwr3J",
+        "EU81JqxVix0KMi81gQfdW0",
+        "iAG1YsbCZeb7s9BcsDVyLr",
+        "_Xlj5rIbEIK0zCj08ujiFv",
+        "HZuKjAWuWI4V22pM63MS9m",
+        "_sGKHNBhO_VtErysE8CbMZ",
+        "zjF43YYNaHvS4efdCGXhqB"
+      ]
+    }
+  ],
+  "folders": [],
+  "notes": "redacted-text-content",
+  "record_uid": "gvEuiLrWKW6w1ZLcN_gS0T",
+  "shared_folder_permissions": [],
+  "title": "name-341",
+  "type": "encryptedNotes",
+  "user_permissions": []
+}

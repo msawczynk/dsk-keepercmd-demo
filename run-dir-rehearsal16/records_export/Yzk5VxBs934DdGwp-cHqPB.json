@@ -1,0 +1,35 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": []
+    },
+    {
+      "type": "password",
+      "value": []
+    },
+    {
+      "type": "url",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [],
+  "record_uid": "Yzk5VxBs934DdGwp-cHqPB",
+  "shared_folder_permissions": [],
+  "title": "name-1006",
+  "type": "login",
+  "user_permissions": []
+}

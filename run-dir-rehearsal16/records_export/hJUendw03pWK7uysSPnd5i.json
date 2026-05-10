@@ -1,0 +1,66 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamResources",
+      "value": [
+        {
+          "controllerUid": "pPrBABIALw08jg0WvBfB5k",
+          "folderUid": "O98QRE2OCNgrhl4vie3iHo",
+          "resourceRef": ""
+        }
+      ]
+    },
+    {
+      "label": "name-1350",
+      "required": true,
+      "type": "schedule",
+      "value": [
+        {
+          "month": "",
+          "time": "",
+          "type": "ON_DEMAND"
+        }
+      ]
+    },
+    {
+      "label": "name-1351",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1352",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1353",
+      "type": "multiline",
+      "value": []
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "O98QRE2OCNgrhl4vie3iHo"
+    }
+  ],
+  "notes": "",
+  "record_uid": "hJUendw03pWK7uysSPnd5i",
+  "shared_folder_permissions": [],
+  "title": "name-899",
+  "type": "pamNetworkConfiguration",
+  "user_permissions": []
+}

@@ -1,0 +1,79 @@
+{
+  "custom": [
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "e2e-test-app"
+      ]
+    },
+    {
+      "label": "name-1158",
+      "type": "text",
+      "value": [
+        "1.0.0"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "e2e-staging"
+      ]
+    },
+    {
+      "label": "name-1160",
+      "type": "text",
+      "value": [
+        "sha256:e2e-test"
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "rolled_back"
+      ]
+    },
+    {
+      "label": "name-1162",
+      "type": "text",
+      "value": [
+        "api"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "5"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T13:59:33.200629+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "Ea0HuM_6c7StMcyzT1u53R",
+  "shared_folder_permissions": [],
+  "title": "name-317",
+  "type": "login",
+  "user_permissions": []
+}

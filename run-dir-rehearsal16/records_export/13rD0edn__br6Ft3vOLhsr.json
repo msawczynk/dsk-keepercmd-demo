@@ -1,0 +1,112 @@
+{
+  "custom": [
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "protocol": "ssh"
+          },
+          "portForward": {}
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "3322"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1315"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "secret",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "checkbox",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "TTu8S8+CAXd2r6yzbgMyY8JitedzgRFJl35Z0V7lFEI="
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "13rD0edn__br6Ft3vOLhsr",
+  "shared_folder_permissions": [],
+  "title": "name-1090",
+  "type": "pamMachine",
+  "user_permissions": []
+}

@@ -1,0 +1,44 @@
+{
+  "custom": [
+    {
+      "label": "name-1226",
+      "type": "text",
+      "value": [
+        "OpenLDAP Configuration"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "production"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1498"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "TxkkZHqZOuQ37oW65wfqtJ",
+  "shared_folder_permissions": [],
+  "title": "name-720",
+  "type": "login",
+  "user_permissions": []
+}

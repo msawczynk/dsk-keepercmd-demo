@@ -1,0 +1,41 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "https://bing.com"
+      ]
+    },
+    {
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "protocol": "http",
+            "recordingIncludeKeys": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "2z/zi7hS8CLkjIhpy2ZSt2/56juDtEHyxOpha/7w6fw="
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "0DDW7WcJXBuROIhUtkFAmb"
+    }
+  ],
+  "record_uid": "QlLDysJvMY2vT-aMZKNyYE",
+  "shared_folder_permissions": [],
+  "title": "name-456",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

@@ -1,0 +1,47 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1260"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "F-xuVeg_ORIgxEDUCsEJFs"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "PyHo55ZdUiN1H-e9rsLrQB",
+  "shared_folder_permissions": [],
+  "title": "name-1125",
+  "type": "login",
+  "user_permissions": []
+}

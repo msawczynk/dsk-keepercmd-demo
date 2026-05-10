@@ -1,0 +1,107 @@
+{
+  "custom": [
+    {
+      "label": "name-1171",
+      "type": "text",
+      "value": [
+        "00000000-0000-0000-0000-a00000000002"
+      ]
+    },
+    {
+      "label": "name-1173",
+      "type": "text",
+      "value": [
+        "findMany test"
+      ]
+    },
+    {
+      "label": "name-1174",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1175",
+      "type": "text",
+      "value": [
+        "[]"
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "stored"
+      ]
+    },
+    {
+      "label": "name-1176",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1177",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1178",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:21:23.905631+00:00"
+      ]
+    },
+    {
+      "label": "name-1179",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:21:23.905631+00:00"
+      ]
+    },
+    {
+      "label": "name-1172",
+      "type": "text",
+      "value": [
+        "Beta Gadget"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:21:25.161673+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "2jxx97iRVIMI8fYag2ClA1",
+  "shared_folder_permissions": [],
+  "title": "name-630",
+  "type": "login",
+  "user_permissions": []
+}

@@ -1,0 +1,92 @@
+{
+  "custom": [
+    {
+      "label": "name-1248",
+      "type": "text",
+      "value": [
+        "AIzaSyChr4CqsD3k7iuMUw8Gta9WIH4bPROHdYw"
+      ]
+    },
+    {
+      "label": "name-1341",
+      "type": "text",
+      "value": [
+        "wherediputit-7ce51.firebaseapp.com"
+      ]
+    },
+    {
+      "label": "name-1327",
+      "type": "text",
+      "value": [
+        "wherediputit-7ce51"
+      ]
+    },
+    {
+      "label": "name-1342",
+      "type": "text",
+      "value": [
+        "wherediputit-7ce51.firebasestorage.app"
+      ]
+    },
+    {
+      "label": "name-1343",
+      "type": "text",
+      "value": [
+        "1030332646162"
+      ]
+    },
+    {
+      "label": "name-1344",
+      "type": "text",
+      "value": [
+        "1:1030332646162:web:u5R9lvtaGM5HEJ-4V2mU2h"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "privateKey": {}
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1478"
+      ]
+    },
+    {
+      "type": "password",
+      "value": []
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "SxK3ynuFdNdK37L8pDiXSG"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "pdBATLAXufx8hXNoZ_Z1aK",
+  "shared_folder_permissions": [],
+  "title": "name-1111",
+  "type": "login",
+  "user_permissions": []
+}

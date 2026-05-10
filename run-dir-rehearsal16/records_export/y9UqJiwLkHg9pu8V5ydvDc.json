@@ -1,0 +1,96 @@
+{
+  "custom": [
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1290"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "name-1146",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "5903"
+        }
+      ]
+    },
+    {
+      "label": "name-1147",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "protocol": "vnc"
+          },
+          "portForward": {}
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "DwitQbPbJtANwIKL8vMcrkM1jDMTwAPkEmhdVfqnFrg="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1150",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1151",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1152",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "y9UqJiwLkHg9pu8V5ydvDc",
+  "shared_folder_permissions": [],
+  "title": "name-820",
+  "type": "pamMachine",
+  "user_permissions": []
+}

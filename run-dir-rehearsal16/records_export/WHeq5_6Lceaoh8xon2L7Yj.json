@@ -1,0 +1,107 @@
+{
+  "custom": [
+    {
+      "label": "name-1173",
+      "type": "text",
+      "value": [
+        "org filter test"
+      ]
+    },
+    {
+      "label": "name-1174",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1175",
+      "type": "text",
+      "value": [
+        "[]"
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "moved"
+      ]
+    },
+    {
+      "label": "name-1176",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1177",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1178",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:21:31.547309+00:00"
+      ]
+    },
+    {
+      "label": "name-1179",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:21:31.547309+00:00"
+      ]
+    },
+    {
+      "label": "name-1171",
+      "type": "text",
+      "value": [
+        "00000000-0000-0000-0000-a00000000004"
+      ]
+    },
+    {
+      "label": "name-1172",
+      "type": "text",
+      "value": [
+        "__integ_orgfilt_1__"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "3"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:21:32.946818+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "WHeq5_6Lceaoh8xon2L7Yj",
+  "shared_folder_permissions": [],
+  "title": "name-288",
+  "type": "login",
+  "user_permissions": []
+}

@@ -1,0 +1,57 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "https://portainer.thelab.local:9443"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "autofillConfiguration": "- page: \"portainer.thelab.local:9443\"\n  username-field: \"input#username\"\n  password-field: \"input#password\"\n  submit: \"button[type=submit]\"",
+            "httpCredentialsUid": "Y8GnJ13nvh-zzCkOe94vtO",
+            "ignoreInitialSslCert": true,
+            "protocol": "http"
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "Ys6Z6aKsgQBUnnPUFLukbAjnsPQTTbKY8Voa2U4L0H8="
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "Cizi_r9CazhwE-XaiE4Blb",
+  "shared_folder_permissions": [],
+  "title": "name-733",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

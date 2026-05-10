@@ -1,0 +1,107 @@
+{
+  "custom": [
+    {
+      "label": "name-1148",
+      "type": "text",
+      "value": [
+        "4ykALFulKegGA8cnoa4tarR5fHEm46RQbStIWeQayJ4="
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "27017"
+        }
+      ]
+    },
+    {
+      "label": "name-1240",
+      "type": "checkbox",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "allowKeeperDB": true,
+            "allowKeeperDBProxy": true,
+            "allowSupplyUser": false,
+            "colorScheme": "white-black",
+            "port": "27017",
+            "protocol": "mongodb",
+            "recordingIncludeKeys": true
+          },
+          "portForward": {
+            "port": "27017"
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "KtO7tf0L/ilGYo5tZiILf0m8DK+fRXAc7Dc0pRCE9cw="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1241",
+      "type": "text",
+      "value": [
+        "admin"
+      ]
+    },
+    {
+      "label": "",
+      "type": "databaseType",
+      "value": [
+        "mongodb"
+      ]
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "Hvo_Fyd9hrt5X6PLFg8FTZ",
+  "shared_folder_permissions": [],
+  "title": "name-386",
+  "type": "pamDatabase",
+  "user_permissions": []
+}

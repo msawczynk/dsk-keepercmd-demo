@@ -1,0 +1,64 @@
+{
+  "custom": [
+    {
+      "label": "name-1226",
+      "type": "text",
+      "value": [
+        "LDAP Account Manager"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "production"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1225"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "O8l5BjFD_52o7dXtEOhFpc",
+  "shared_folder_permissions": [],
+  "title": "name-479",
+  "type": "login",
+  "user_permissions": []
+}

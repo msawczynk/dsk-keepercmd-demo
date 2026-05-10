@@ -1,0 +1,48 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "2222"
+        }
+      ]
+    },
+    {
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "qzc6IxXQMGEzCuvfiS3zvRhhaSnILjnkE2OAr2/tXHQ="
+      ]
+    },
+    {
+      "type": "pamSettings",
+      "value": [
+        {
+          "connection": {
+            "port": "2222",
+            "protocol": "ssh",
+            "recordingIncludeKeys": true
+          },
+          "portForward": {
+            "port": "2222",
+            "reusePort": true
+          }
+        }
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "0DDW7WcJXBuROIhUtkFAmb"
+    }
+  ],
+  "record_uid": "0nJ5FfBWTcycs-7oNdbU23",
+  "shared_folder_permissions": [],
+  "title": "name-979",
+  "type": "pamMachine",
+  "user_permissions": []
+}

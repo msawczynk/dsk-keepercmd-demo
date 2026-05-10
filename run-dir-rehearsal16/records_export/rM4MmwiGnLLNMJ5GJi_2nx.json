@@ -1,0 +1,76 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "required": true,
+      "type": "login",
+      "value": [
+        "name-1418"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": [
+        {
+          "command": "",
+          "fileRef": "bOZES3cXdRQhlyBWYoWqvU",
+          "recordRef": []
+        }
+      ]
+    },
+    {
+      "label": "name-1234",
+      "type": "secret",
+      "value": []
+    },
+    {
+      "label": "name-1235",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1236",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1237",
+      "type": "checkbox",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "CixyXJuhtEtXfKYEOEZbJ3"
+    },
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "9CZauUdrZFgi6CmM6SAaAn"
+    },
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "bOXz_P355RIhfUfzCNuq7b"
+    }
+  ],
+  "record_uid": "rM4MmwiGnLLNMJ5GJi_2nx",
+  "shared_folder_permissions": [],
+  "title": "name-411",
+  "type": "pamUser",
+  "user_permissions": []
+}

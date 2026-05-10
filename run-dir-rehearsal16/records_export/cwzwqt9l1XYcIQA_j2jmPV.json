@@ -1,0 +1,66 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "1433"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "Cze/K0Lq3pYY2M95TuapvJnMyx20qzib2Yrqwcg24Fw="
+      ]
+    },
+    {
+      "label": "",
+      "type": "databaseType",
+      "value": [
+        "mssql"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "database": "master",
+            "protocol": "sql-server",
+            "userRecords": [
+              "eP7QhZ76GlLmDQZz2N1l4-"
+            ]
+          },
+          "portForward": {
+            "reusePort": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "UxYuaVl582iZIkK73RSPAS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "cwzwqt9l1XYcIQA_j2jmPV",
+  "shared_folder_permissions": [],
+  "title": "name-1082",
+  "type": "pamDatabase",
+  "user_permissions": []
+}

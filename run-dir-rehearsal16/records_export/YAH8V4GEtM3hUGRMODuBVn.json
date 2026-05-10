@@ -1,0 +1,88 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "\"server-rdp\",\"port\":\"5985\"}"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "protocol": "ssh"
+          },
+          "portForward": {}
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "NeG/d0pKT3SFA/jerWCzorL/6eLeo7MmJGaQKQKF8gU="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1150",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1151",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1152",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "0DDW7WcJXBuROIhUtkFAmb"
+    }
+  ],
+  "notes": "",
+  "record_uid": "YAH8V4GEtM3hUGRMODuBVn",
+  "shared_folder_permissions": [],
+  "title": "name-967",
+  "type": "pamMachine",
+  "user_permissions": []
+}

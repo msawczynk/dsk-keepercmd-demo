@@ -1,0 +1,56 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "http://pihole.thelab.local:8888/admin/"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "autofillConfiguration": "- page: \"10.16.10.8:8888\"\n  password-field: \"input#current-password\"\n  submit: \"#loginform button[type=submit]\"\n- page: \"10.16.10.8:8888\"\n  password-field: \"input#current-password\"\n  submit: \"#loginform button[type=submit]\"",
+            "httpCredentialsUid": "vCllTsWNv1uaqivP0gQkl6",
+            "protocol": "http"
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "cqEOlISh02pTXVlE5MZ5XPwwHSKEyQSuODdAfG959+8="
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "zbC1YnXVpe4bnB5fAtXFxg",
+  "shared_folder_permissions": [],
+  "title": "name-689",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

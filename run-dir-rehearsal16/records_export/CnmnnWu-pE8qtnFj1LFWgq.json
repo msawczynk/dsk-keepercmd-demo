@@ -1,0 +1,66 @@
+{
+  "custom": [
+    {
+      "label": "name-1249",
+      "type": "text",
+      "value": [
+        "security_nexus_jwt_secret_key_production_2024_very_secure"
+      ]
+    },
+    {
+      "label": "name-1301",
+      "type": "text",
+      "value": [
+        "security_nexus"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1300"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "4goXxvLlVe6l7aGRv0bSqU"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "CnmnnWu-pE8qtnFj1LFWgq",
+  "shared_folder_permissions": [],
+  "title": "name-679",
+  "type": "login",
+  "user_permissions": []
+}

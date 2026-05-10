@@ -1,0 +1,37 @@
+{
+  "fields": [
+    {
+      "type": "login",
+      "value": [
+        "name-1383"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "MIGTEST-SF-Main",
+      "shared_folder_uid": "rftcL1Xwi84323R5Xng6PV"
+    }
+  ],
+  "record_uid": "j7i9v4qT9skWbpqse6RTnO",
+  "shared_folder_permissions": [],
+  "title": "name-861",
+  "type": "login",
+  "user_permissions": []
+}

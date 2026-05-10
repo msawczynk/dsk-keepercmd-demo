@@ -1,0 +1,86 @@
+{
+  "custom": [
+    {
+      "label": "name-1227",
+      "type": "text",
+      "value": [
+        "web-e2e-05fe124a"
+      ]
+    },
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "app-e2e-05fe124a"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "staging-e2e-05fe124a"
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "pending"
+      ]
+    },
+    {
+      "label": "name-1228",
+      "type": "text",
+      "value": [
+        "1.0.0"
+      ]
+    },
+    {
+      "label": "name-1230",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1184",
+      "type": "text",
+      "value": [
+        "lngyySNsR3WTPjQoJYoRMm"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-09T22:24:33.600593+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "AXPKVdI7y-S9SrahV7cDdT",
+  "shared_folder_permissions": [],
+  "title": "name-326",
+  "type": "login",
+  "user_permissions": []
+}

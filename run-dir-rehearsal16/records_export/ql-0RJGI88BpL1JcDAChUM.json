@@ -1,0 +1,79 @@
+{
+  "custom": [
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "demo-api"
+      ]
+    },
+    {
+      "label": "name-1158",
+      "type": "text",
+      "value": [
+        "0.9.0"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "staging"
+      ]
+    },
+    {
+      "label": "name-1160",
+      "type": "text",
+      "value": [
+        "sha256:9cf2b16070e12d930f46fc98a4ae2006"
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "rolled_back"
+      ]
+    },
+    {
+      "label": "name-1162",
+      "type": "text",
+      "value": [
+        "demo-setup"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "4"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T14:08:49.556230+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "active"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "ql-0RJGI88BpL1JcDAChUM",
+  "shared_folder_permissions": [],
+  "title": "name-573",
+  "type": "login",
+  "user_permissions": []
+}

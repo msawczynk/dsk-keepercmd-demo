@@ -1,0 +1,63 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "createdDate": 1765993386445,
+          "credentialId": "VGaHG74dqF7eEH_EGePrGZ4h_Cmy-mcusII27TXaVgc",
+          "privateKey": {
+            "alg": "ES256",
+            "crv": "P-256",
+            "d": "yxGv_ycuza8XJop1BfMc7V7YiLjQ-J-2-hOmflDB47k",
+            "ext": true,
+            "key_ops": [
+              "sign"
+            ],
+            "kty": "EC",
+            "x": "G8fV_NyzSl_b73WjNSgZmCgOgKrpMkfmFXd4aKow83Y",
+            "y": "sVvsygeOCOHlxldW0nCcABc8ByMRW9SSfw76yoQH75w"
+          },
+          "relyingParty": "login.microsoft.com",
+          "signCount": 0,
+          "userId": "T0Y6ryjAinFPAUiuYUg99pU3YoQN4KkES-Cda2V9G3N5D7lz8l9KJTskJSfxuHkaGZmT",
+          "username": "user-022@example.test"
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1317"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [],
+  "notes": "",
+  "record_uid": "npOSZetnk68bVkwaUccoe9",
+  "shared_folder_permissions": [],
+  "title": "name-1067",
+  "type": "login",
+  "user_permissions": []
+}

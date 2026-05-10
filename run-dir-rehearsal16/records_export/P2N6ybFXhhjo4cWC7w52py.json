@@ -1,0 +1,109 @@
+{
+  "custom": [
+    {
+      "label": "name-1394",
+      "type": "host",
+      "value": [
+        {
+          "hostName": "ubuntu-20.04-retro",
+          "port": ""
+        }
+      ]
+    },
+    {
+      "label": "name-1333",
+      "type": "host",
+      "value": [
+        {
+          "hostName": "5912",
+          "port": ""
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "name-1146",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "5900"
+        }
+      ]
+    },
+    {
+      "label": "name-1147",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "protocol": "vnc"
+          },
+          "portForward": {}
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "ITTHw1IYPob9NmmJlRzgW4/SZSUGru8go+Tg8bst/j8="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1150",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1151",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1152",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "P2N6ybFXhhjo4cWC7w52py",
+  "shared_folder_permissions": [],
+  "title": "name-291",
+  "type": "pamMachine",
+  "user_permissions": []
+}

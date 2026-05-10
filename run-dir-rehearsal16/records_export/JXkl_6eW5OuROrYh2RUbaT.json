@@ -1,0 +1,70 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamResources",
+      "value": [
+        {
+          "controllerUid": "7C4Sk8_GBYbJT0kGDhHBkC",
+          "folderUid": "JEFrvOewQ24tyiFXb9B9VV",
+          "resourceRef": ""
+        }
+      ]
+    },
+    {
+      "label": "name-1350",
+      "required": true,
+      "type": "schedule",
+      "value": [
+        {
+          "month": "",
+          "time": "",
+          "type": "ON_DEMAND"
+        }
+      ]
+    },
+    {
+      "label": "name-1351",
+      "type": "text",
+      "value": [
+        "discovery-net"
+      ]
+    },
+    {
+      "label": "name-1352",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1353",
+      "type": "multiline",
+      "value": [
+        "2222=ssh"
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "JEFrvOewQ24tyiFXb9B9VV"
+    }
+  ],
+  "notes": "",
+  "record_uid": "JXkl_6eW5OuROrYh2RUbaT",
+  "shared_folder_permissions": [],
+  "title": "name-253",
+  "type": "pamNetworkConfiguration",
+  "user_permissions": []
+}

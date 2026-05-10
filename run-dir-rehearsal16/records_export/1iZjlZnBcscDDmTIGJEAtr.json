@@ -1,0 +1,86 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1146",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "5904"
+        }
+      ]
+    },
+    {
+      "label": "name-1147",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {},
+          "portForward": {}
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "4wgFTr7bTOLeIPL7DX7nRYaYfjoZmL18kroVCLRYM20="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1150",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1151",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1152",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "1iZjlZnBcscDDmTIGJEAtr",
+  "shared_folder_permissions": [],
+  "title": "name-1055",
+  "type": "pamMachine",
+  "user_permissions": []
+}

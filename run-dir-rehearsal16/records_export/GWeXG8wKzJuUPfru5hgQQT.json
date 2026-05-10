@@ -1,0 +1,115 @@
+{
+  "custom": [
+    {
+      "type": "multiline",
+      "value": [
+        "Path to docker config file \n\n/etc/kcm-setup/docker-compose.yml\n\nKSM \nShortcuts to specific fileds\n\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/KCM_LICENSE\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/GUACAMOLE_HOSTNAME\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/GUACAMOLE_USERNAME\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/GUACAMOLE_DATABASE\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/GUACAMOLE_PASSWORD\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/GUACAMOLE_ADMIN_PASSWORD\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/GUACD_HOSTNAME\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/MYSQL_DATABASE\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/MYSQL_USERNAME\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/MYSQL_PASSWORD\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/MYSQL_HOSTNAME\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/MYSQL_ROOT_PASSWORD\nkeeper://GWeXG8wKzJuUPfru5hgQQT/custom_field/SSL_HOSTNAME"
+      ]
+    },
+    {
+      "label": "name-1277",
+      "type": "text",
+      "value": [
+        "eyJhbGciOiJFUzUxMiJ9.eyJleHAiOjE3NjE4Njg4MDAsIm"
+      ]
+    },
+    {
+      "label": "name-1278",
+      "type": "text",
+      "value": [
+        "guacamole"
+      ]
+    },
+    {
+      "label": "name-1279",
+      "type": "text",
+      "value": [
+        "guacamole_user"
+      ]
+    },
+    {
+      "label": "name-1280",
+      "type": "text",
+      "value": [
+        "guacamole_db"
+      ]
+    },
+    {
+      "label": "name-1281",
+      "type": "text",
+      "value": [
+        "fFmWqp7cgpWqGV2whPQQmqwrMwFjXvH3"
+      ]
+    },
+    {
+      "label": "name-1282",
+      "type": "text",
+      "value": [
+        "C2m7Rrgh5VV9mG4Q3X3CVvh8rQp2m4f4"
+      ]
+    },
+    {
+      "label": "name-1283",
+      "type": "text",
+      "value": [
+        "guacd"
+      ]
+    },
+    {
+      "label": "name-1284",
+      "type": "text",
+      "value": [
+        "guacamole_db"
+      ]
+    },
+    {
+      "label": "name-1285",
+      "type": "text",
+      "value": [
+        "guacamole_user"
+      ]
+    },
+    {
+      "label": "name-1286",
+      "type": "text",
+      "value": [
+        "fFmWqp7cgpWqGV2whPQQmqwrMwFjXvH3"
+      ]
+    },
+    {
+      "label": "name-1287",
+      "type": "text",
+      "value": [
+        "db"
+      ]
+    },
+    {
+      "label": "name-1288",
+      "type": "text",
+      "value": [
+        "6GV9fGVvrwwCQQpWMjQr9mM8R3F9cvCh"
+      ]
+    },
+    {
+      "label": "name-1289",
+      "type": "text",
+      "value": [
+        "vmi1964462.contaboserver.net"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "name-1136",
+      "type": "text",
+      "value": []
+    }
+  ],
+  "folders": [],
+  "notes": "",
+  "record_uid": "GWeXG8wKzJuUPfru5hgQQT",
+  "shared_folder_permissions": [],
+  "title": "name-762",
+  "type": "Multiple creds for docker",
+  "user_permissions": []
+}

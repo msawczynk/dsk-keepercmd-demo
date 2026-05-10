@@ -1,0 +1,72 @@
+{
+  "custom": [
+    {
+      "label": "name-1227",
+      "type": "text",
+      "value": [
+        "web-prod-01"
+      ]
+    },
+    {
+      "label": "name-1374",
+      "type": "text",
+      "value": [
+        "nginx"
+      ]
+    },
+    {
+      "label": "name-1421",
+      "type": "text",
+      "value": [
+        "1.24.0"
+      ]
+    },
+    {
+      "label": "name-1375",
+      "type": "text",
+      "value": [
+        "allow"
+      ]
+    },
+    {
+      "label": "name-1186",
+      "type": "text",
+      "value": [
+        "agent"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-04-02T23:49:41.917824+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "IcGmMhh6JWAeu0ytcK05-9"
+    }
+  ],
+  "record_uid": "S81LFJJraMt5JS3J44dXji",
+  "shared_folder_permissions": [],
+  "title": "name-306",
+  "type": "login",
+  "user_permissions": []
+}

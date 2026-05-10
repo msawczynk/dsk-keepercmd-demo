@@ -1,0 +1,65 @@
+{
+  "custom": [
+    {
+      "label": "name-1172",
+      "type": "text",
+      "value": [
+        "prod-e2e-2d7cdd1a"
+      ]
+    },
+    {
+      "label": "name-1229",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1256",
+      "type": "text",
+      "value": [
+        "true"
+      ]
+    },
+    {
+      "label": "name-1257",
+      "type": "text",
+      "value": [
+        "true"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-09T22:41:55.112069+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "-1GJbKZf9ojE5yu6nC_aJ6",
+  "shared_folder_permissions": [],
+  "title": "name-420",
+  "type": "login",
+  "user_permissions": []
+}

@@ -1,0 +1,68 @@
+{
+  "custom": [
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {},
+          "portForward": {}
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "name-1180",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "http://10.16.9.208:9011"
+      ]
+    },
+    {
+      "label": "name-1181",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "httpCredentialsUid": "nGwDrqMSh72Z3K4MVGBMjF",
+            "protocol": "http",
+            "recordingIncludeKeys": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "HAfeNr1ab3mxew/SJMM3MKaTXzbn13D96A9DaiqCU20="
+      ]
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "JmAV5U6Uhn4J6RvLoLSTIb"
+    }
+  ],
+  "notes": "",
+  "record_uid": "HQB6DPn7q5DY1EwFnmWsd_",
+  "shared_folder_permissions": [],
+  "title": "name-595",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

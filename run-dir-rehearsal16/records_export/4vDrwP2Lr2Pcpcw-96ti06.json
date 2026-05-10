@@ -1,0 +1,56 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "http://10.16.9.208:9008"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "autofillConfiguration": "- page: \"10.16.9.208:9008\"\n  username-field: \"input[name=_username]\"\n  password-field: \"input[name=password]\"\n  submit: \"button[type=submit]\"",
+            "httpCredentialsUid": "05fmH0_uc_jdEavRMMp16D",
+            "protocol": "http"
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "G27eu1dob07ewcupWfa3LhC4ofZfCRU9i1I57+UPqWk="
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "4vDrwP2Lr2Pcpcw-96ti06",
+  "shared_folder_permissions": [],
+  "title": "name-1094",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

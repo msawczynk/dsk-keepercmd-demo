@@ -1,0 +1,90 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "2222"
+        }
+      ]
+    },
+    {
+      "type": "pamSettings",
+      "value": [
+        {
+          "connection": {
+            "colorScheme": "white-black",
+            "port": "2222",
+            "protocol": "ssh",
+            "recordingIncludeKeys": true,
+            "sftp": {
+              "enableSftp": true
+            }
+          },
+          "portForward": {
+            "port": "2222",
+            "reusePort": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "Eu7tb5d+7ebGlfXXMZr5SayS4XGgi+zpUJqhQOq9DBk="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1150",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1151",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1152",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "0DDW7WcJXBuROIhUtkFAmb"
+    }
+  ],
+  "record_uid": "6c8T3dIwRBWv8EN647dU8J",
+  "shared_folder_permissions": [],
+  "title": "name-295",
+  "type": "pamMachine",
+  "user_permissions": []
+}

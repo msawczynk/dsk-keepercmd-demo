@@ -1,0 +1,97 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1146",
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "8000"
+        }
+      ]
+    },
+    {
+      "label": "name-1240",
+      "type": "checkbox",
+      "value": []
+    },
+    {
+      "label": "name-1147",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "allowKeeperDB": true,
+            "allowKeeperDBProxy": true,
+            "allowSupplyUser": false,
+            "colorScheme": "white-black",
+            "port": "8000",
+            "protocol": "dynamodb",
+            "recordingIncludeKeys": true
+          },
+          "portForward": {
+            "port": "8000"
+          }
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "7siq1fUPViUn0DTSPhpx1ogDDq3ud8dkAF43sB5iZnw="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1241",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1242",
+      "type": "databaseType",
+      "value": [
+        "dynamodb"
+      ]
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "gmpyBOUjs9Ra_o2my42dI3",
+  "shared_folder_permissions": [],
+  "title": "name-664",
+  "type": "pamDatabase",
+  "user_permissions": []
+}

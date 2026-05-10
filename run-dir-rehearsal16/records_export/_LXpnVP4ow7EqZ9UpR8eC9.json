@@ -1,0 +1,55 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1180",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "http://10.16.9.208:3080"
+      ]
+    },
+    {
+      "label": "name-1181",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "httpCredentialsUid": "ocNB7PWiDOq3XSL4cRDA-S",
+            "protocol": "http"
+          }
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "DMZouHJAnqTOOgeeCYNeKGB3207XYEEI8XjPegCfOpc="
+      ]
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "_LXpnVP4ow7EqZ9UpR8eC9",
+  "shared_folder_permissions": [],
+  "title": "name-328",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

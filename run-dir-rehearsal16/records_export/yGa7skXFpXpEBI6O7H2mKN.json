@@ -1,0 +1,71 @@
+{
+  "custom": [
+    {
+      "label": "name-1379",
+      "type": "text",
+      "value": [
+        "1dd324eec90c4eafc7de30a7de29336d"
+      ]
+    },
+    {
+      "label": "name-1380",
+      "type": "text",
+      "value": [
+        "wherediputit"
+      ]
+    },
+    {
+      "label": "name-1381",
+      "type": "text",
+      "value": [
+        "release.keystore"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "SxK3ynuFdNdK37L8pDiXSG"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "yGa7skXFpXpEBI6O7H2mKN",
+  "shared_folder_permissions": [],
+  "title": "name-543",
+  "type": "login",
+  "user_permissions": []
+}

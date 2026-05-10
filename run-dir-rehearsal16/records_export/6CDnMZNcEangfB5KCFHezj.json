@@ -1,0 +1,53 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1180",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "smb://10.16.10.8"
+      ]
+    },
+    {
+      "label": "name-1181",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "protocol": "http"
+          }
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "CG0AzlwHCkCCI+l9YcWVuuuMAYl8ZZZMYo0l361bLgo="
+      ]
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "6CDnMZNcEangfB5KCFHezj",
+  "shared_folder_permissions": [],
+  "title": "name-586",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

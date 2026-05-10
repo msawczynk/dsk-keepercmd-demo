@@ -1,0 +1,60 @@
+{
+  "custom": [
+    {
+      "label": "",
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": ""
+        }
+      ]
+    },
+    {
+      "label": "name-1333",
+      "type": "text",
+      "value": [
+        "443"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1294"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [],
+  "notes": "",
+  "record_uid": "XqaPMZV2TxsFC8xjQZAwMe",
+  "shared_folder_permissions": [],
+  "title": "name-442",
+  "type": "login",
+  "user_permissions": []
+}

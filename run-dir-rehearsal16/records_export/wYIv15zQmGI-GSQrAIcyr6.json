@@ -1,0 +1,77 @@
+{
+  "custom": [
+    {
+      "label": "name-1327",
+      "type": "text",
+      "value": [
+        "38708f35-cc12-4c3f-b714-80d1baf0af73"
+      ]
+    },
+    {
+      "label": "name-1328",
+      "type": "text",
+      "value": [
+        "wherediputit-enterprise"
+      ]
+    },
+    {
+      "label": "name-1329",
+      "type": "text",
+      "value": [
+        "wherediputit-enterprise"
+      ]
+    },
+    {
+      "label": "name-1330",
+      "type": "text",
+      "value": [
+        "EXPO_TOKEN"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "privateKey": {}
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1326"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "-5B5ny149IMSUAZ0RkaU2Q"
+    }
+  ],
+  "record_uid": "wYIv15zQmGI-GSQrAIcyr6",
+  "shared_folder_permissions": [],
+  "title": "name-363",
+  "type": "login",
+  "user_permissions": []
+}

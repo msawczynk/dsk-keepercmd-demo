@@ -1,0 +1,99 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "3306"
+        }
+      ]
+    },
+    {
+      "label": "name-1240",
+      "type": "checkbox",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "allowKeeperDB": true,
+            "allowKeeperDBProxy": true,
+            "allowSupplyUser": false,
+            "colorScheme": "white-black",
+            "port": "3306",
+            "protocol": "mysql",
+            "recordingIncludeKeys": true
+          },
+          "portForward": {
+            "port": "3306"
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "Fqy/z6aL9oARunug8CIs9BM3fThKKBmutTzeDb4aTqE="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1241",
+      "type": "text",
+      "value": [
+        "testdb"
+      ]
+    },
+    {
+      "label": "",
+      "type": "databaseType",
+      "value": [
+        "mariadb"
+      ]
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "PK8giEUMwDuY-OpxqD74JL",
+  "shared_folder_permissions": [],
+  "title": "name-881",
+  "type": "pamDatabase",
+  "user_permissions": []
+}

@@ -1,0 +1,48 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "login",
+      "value": [
+        "name-1182"
+      ]
+    },
+    {
+      "type": "keyPair",
+      "value": [
+        {
+          "privateKey": "redacted-PLACEHOLDER"
+        }
+      ]
+    },
+    {
+      "label": "name-1183",
+      "type": "password",
+      "value": []
+    },
+    {
+      "type": "host",
+      "value": [
+        {
+          "hostName": "10.16.10.8",
+          "port": "22"
+        }
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "record_uid": "Bu5K4EYtLqZijZUN96KbE1",
+  "shared_folder_permissions": [],
+  "title": "name-738",
+  "type": "sshKeys",
+  "user_permissions": []
+}

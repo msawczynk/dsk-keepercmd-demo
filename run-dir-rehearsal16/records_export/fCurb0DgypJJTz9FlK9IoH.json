@@ -1,0 +1,85 @@
+{
+  "custom": [
+    {
+      "label": "name-1453",
+      "type": "text",
+      "value": [
+        "2F4273YC28"
+      ]
+    },
+    {
+      "label": "name-1454",
+      "type": "text",
+      "value": [
+        "com.momstorage.wherediputit"
+      ]
+    },
+    {
+      "label": "name-1455",
+      "type": "text",
+      "value": [
+        "6758303624"
+      ]
+    },
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "Where'd I Put It?"
+      ]
+    },
+    {
+      "label": "name-1263",
+      "type": "text",
+      "value": [
+        "iOS + Android"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "privateKey": {}
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1452"
+      ]
+    },
+    {
+      "type": "password",
+      "value": []
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "SxK3ynuFdNdK37L8pDiXSG"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "fCurb0DgypJJTz9FlK9IoH",
+  "shared_folder_permissions": [],
+  "title": "name-776",
+  "type": "login",
+  "user_permissions": []
+}

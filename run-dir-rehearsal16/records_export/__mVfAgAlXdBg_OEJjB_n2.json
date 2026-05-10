@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "type": "note",
+      "value": []
+    },
+    {
+      "type": "date",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "__mVfAgAlXdBg_OEJjB_n2",
+  "shared_folder_permissions": [],
+  "title": "name-625",
+  "type": "encryptedNotes",
+  "user_permissions": []
+}

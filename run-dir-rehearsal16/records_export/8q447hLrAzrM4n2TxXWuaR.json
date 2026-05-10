@@ -1,0 +1,69 @@
+{
+  "custom": [
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {},
+          "portForward": {}
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "name-1180",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "https://login.lineleader.com/login"
+      ]
+    },
+    {
+      "label": "name-1181",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "autofillConfiguration": "[{\"page\": \"login.lineleader.com/*\", \"username-field\": \"#username\", \"password-field\": \"#password\", \"submit\": \"button[type=\\\"submit\\\"]\", \"cannot-submit\": \"div[data-testid=\\\"challenge-widget-container\\\"]\"}]",
+            "httpCredentialsUid": "yBZPmBGuAtGFKaIYbKRT7z",
+            "protocol": "http",
+            "recordingIncludeKeys": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "dENqWTpqXr+5aNkcr4sOVjA0WPmdPMTGtx/7wbOyh2s="
+      ]
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "JmAV5U6Uhn4J6RvLoLSTIb"
+    }
+  ],
+  "notes": "",
+  "record_uid": "8q447hLrAzrM4n2TxXWuaR",
+  "shared_folder_permissions": [],
+  "title": "name-402",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

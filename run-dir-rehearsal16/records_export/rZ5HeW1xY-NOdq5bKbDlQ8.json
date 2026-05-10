@@ -1,0 +1,107 @@
+{
+  "custom": [
+    {
+      "label": "name-1171",
+      "type": "text",
+      "value": [
+        "00000000-0000-0000-0000-a00000000004"
+      ]
+    },
+    {
+      "label": "name-1173",
+      "type": "text",
+      "value": [
+        "bulk update test"
+      ]
+    },
+    {
+      "label": "name-1174",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1175",
+      "type": "text",
+      "value": [
+        "[]"
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "archived"
+      ]
+    },
+    {
+      "label": "name-1176",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1177",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1178",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:22:28.132753+00:00"
+      ]
+    },
+    {
+      "label": "name-1179",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:22:28.132753+00:00"
+      ]
+    },
+    {
+      "label": "name-1172",
+      "type": "text",
+      "value": [
+        "__integ_bulkupd_0__"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "3"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-04-02T22:22:30.034753+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "rZ5HeW1xY-NOdq5bKbDlQ8",
+  "shared_folder_permissions": [],
+  "title": "name-925",
+  "type": "login",
+  "user_permissions": []
+}

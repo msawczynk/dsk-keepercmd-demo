@@ -1,0 +1,66 @@
+{
+  "custom": [
+    {
+      "label": "name-1472",
+      "type": "text",
+      "value": [
+        "user-028@example.test"
+      ]
+    },
+    {
+      "label": "name-1473",
+      "type": "text",
+      "value": [
+        "user-021@example.test"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1471"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "zl1AtA6L3PqETGcT1o9wuu"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "cJx80LSPtAoPIaJBc3qJRS",
+  "shared_folder_permissions": [],
+  "title": "name-621",
+  "type": "login",
+  "user_permissions": []
+}

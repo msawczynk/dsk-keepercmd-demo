@@ -1,0 +1,66 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamResources",
+      "value": [
+        {
+          "controllerUid": "OwAaLxPRJ1VM8lwWLpneB2",
+          "folderUid": "jM5F9iSkG77baUYz_jRTj0",
+          "resourceRef": ""
+        }
+      ]
+    },
+    {
+      "label": "name-1350",
+      "required": true,
+      "type": "schedule",
+      "value": [
+        {
+          "month": "",
+          "time": "",
+          "type": "ON_DEMAND"
+        }
+      ]
+    },
+    {
+      "label": "name-1351",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1352",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1353",
+      "type": "multiline",
+      "value": []
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "jM5F9iSkG77baUYz_jRTj0"
+    }
+  ],
+  "notes": "",
+  "record_uid": "Ek0QEABh0vwGrpQAvRyh1g",
+  "shared_folder_permissions": [],
+  "title": "name-913",
+  "type": "pamNetworkConfiguration",
+  "user_permissions": []
+}

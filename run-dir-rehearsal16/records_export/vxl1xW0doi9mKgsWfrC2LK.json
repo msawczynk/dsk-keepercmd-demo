@@ -1,0 +1,58 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "23"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "oMlhvtio6HyOOMCvObwo+9MqRmcqr4STJct1+UlFPfE="
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "protocol": "telnet",
+            "userRecords": [
+              "OPF99asaJYPAZIUQ5VBDhu"
+            ]
+          },
+          "portForward": {
+            "reusePort": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "UxYuaVl582iZIkK73RSPAS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "vxl1xW0doi9mKgsWfrC2LK",
+  "shared_folder_permissions": [],
+  "title": "name-465",
+  "type": "pamMachine",
+  "user_permissions": []
+}

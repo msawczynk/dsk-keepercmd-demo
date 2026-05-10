@@ -1,0 +1,60 @@
+{
+  "custom": [
+    {
+      "label": "name-1226",
+      "type": "text",
+      "value": [
+        "OpenLDAP Directory Service"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "production"
+      ]
+    },
+    {
+      "label": "name-1495",
+      "type": "text",
+      "value": [
+        "ldap://10.16.10.8:389"
+      ]
+    },
+    {
+      "label": "name-1463",
+      "type": "text",
+      "value": [
+        "dc=thelab,dc=local"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1225"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "8Cz-ZWcgrIwJxN0CMxabEj",
+  "shared_folder_permissions": [],
+  "title": "name-931",
+  "type": "login",
+  "user_permissions": []
+}

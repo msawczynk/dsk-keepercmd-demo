@@ -1,0 +1,121 @@
+{
+  "custom": [
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "test-app"
+      ]
+    },
+    {
+      "label": "name-1158",
+      "type": "text",
+      "value": [
+        "1.0.0"
+      ]
+    },
+    {
+      "label": "name-1263",
+      "type": "text",
+      "value": [
+        "linux_amd64"
+      ]
+    },
+    {
+      "label": "name-1264",
+      "type": "text",
+      "value": [
+        "external_ref"
+      ]
+    },
+    {
+      "label": "name-1265",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1266",
+      "type": "text",
+      "value": [
+        "nginx.tar.gz"
+      ]
+    },
+    {
+      "label": "name-1267",
+      "type": "text",
+      "value": [
+        "0"
+      ]
+    },
+    {
+      "label": "name-1268",
+      "type": "text",
+      "value": [
+        "docker://nginx:1.25"
+      ]
+    },
+    {
+      "label": "name-1160",
+      "type": "text",
+      "value": [
+        "sha256:test123"
+      ]
+    },
+    {
+      "label": "name-1269",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1270",
+      "type": "text",
+      "value": [
+        "api"
+      ]
+    },
+    {
+      "label": "name-1257",
+      "type": "text",
+      "value": [
+        "false"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T13:33:36.043069+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "active"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "CugsIEKEq5ePqziiy_u2Dr",
+  "shared_folder_permissions": [],
+  "title": "name-958",
+  "type": "login",
+  "user_permissions": []
+}

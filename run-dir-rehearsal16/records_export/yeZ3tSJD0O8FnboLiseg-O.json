@@ -1,0 +1,38 @@
+{
+  "fields": [
+    {
+      "type": "login",
+      "value": [
+        "name-1385"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "yeZ3tSJD0O8FnboLiseg-O",
+  "shared_folder_permissions": [],
+  "title": "name-897",
+  "type": "login",
+  "user_permissions": []
+}

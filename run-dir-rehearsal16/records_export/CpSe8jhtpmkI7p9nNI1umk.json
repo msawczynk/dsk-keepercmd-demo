@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "type": "login",
+      "value": [
+        "name-1188"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "2JP0F7RQbilqCz50etRJo5"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "CpSe8jhtpmkI7p9nNI1umk",
+  "shared_folder_permissions": [],
+  "title": "name-1056",
+  "type": "login",
+  "user_permissions": []
+}

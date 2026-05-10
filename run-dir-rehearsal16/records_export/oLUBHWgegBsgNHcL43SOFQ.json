@@ -1,0 +1,81 @@
+{
+  "custom": [
+    {
+      "label": "name-1333",
+      "type": "text",
+      "value": [
+        "443"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": ""
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": []
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1150",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1151",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1152",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [],
+  "notes": "",
+  "record_uid": "oLUBHWgegBsgNHcL43SOFQ",
+  "shared_folder_permissions": [],
+  "title": "name-1089",
+  "type": "pamMachine",
+  "user_permissions": []
+}

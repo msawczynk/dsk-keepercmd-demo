@@ -1,0 +1,65 @@
+{
+  "custom": [
+    {
+      "label": "name-1184",
+      "type": "text",
+      "value": [
+        "7fk6whvjgnfkKBExGQz_Ab"
+      ]
+    },
+    {
+      "label": "name-1185",
+      "type": "text",
+      "value": [
+        "rolled_back"
+      ]
+    },
+    {
+      "label": "name-1186",
+      "type": "text",
+      "value": [
+        "e2e-test"
+      ]
+    },
+    {
+      "label": "name-1187",
+      "type": "text",
+      "value": [
+        "{\"reason\": \"testing rollback\", \"rolled_back_to\": null}"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-09T22:24:23.702428+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "HJ5-Bnoeh_oGdsVaZeb6bu",
+  "shared_folder_permissions": [],
+  "title": "name-842",
+  "type": "login",
+  "user_permissions": []
+}

@@ -1,0 +1,56 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "http://10.16.10.8:8083/doku.php?do=login"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "autofillConfiguration": "- page: \"10.16.10.8:8083\"\n  username-field: \"input[name=u]\"\n  password-field: \"input[name=p]\"\n  submit: \"#dw__login button[type=submit]\"",
+            "httpCredentialsUid": "8Y5pG2i0wa62C8xzeLl5Bw",
+            "protocol": "http"
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "hJ5b54RHtKdEQ88WNoQVHXXC2rZei/bmhWeLWrDbFpc="
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "GLC5zTnUno3LD4prWMBKeU",
+  "shared_folder_permissions": [],
+  "title": "name-1117",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

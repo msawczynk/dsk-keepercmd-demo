@@ -1,0 +1,53 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "22"
+        }
+      ]
+    },
+    {
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "YYjsvxIPJYMFcyFAUVoY3eobGwIElFWdRtLM3CJR1og="
+      ]
+    },
+    {
+      "type": "pamSettings",
+      "value": [
+        {
+          "connection": {
+            "enableFullWindowDrag": false,
+            "enableWallpaper": false,
+            "ignoreCert": true,
+            "port": "3389",
+            "protocol": "rdp",
+            "recordingIncludeKeys": true,
+            "resizeMethod": "display-update",
+            "security": "any"
+          },
+          "portForward": {
+            "port": "3389",
+            "reusePort": true
+          }
+        }
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "0DDW7WcJXBuROIhUtkFAmb"
+    }
+  ],
+  "record_uid": "ce9_hrxMvI11yZ996oluud",
+  "shared_folder_permissions": [],
+  "title": "name-276",
+  "type": "pamMachine",
+  "user_permissions": []
+}

@@ -1,0 +1,84 @@
+{
+  "custom": [
+    {
+      "label": "name-1335",
+      "type": "text",
+      "value": [
+        "848GL82UMV"
+      ]
+    },
+    {
+      "label": "name-1336",
+      "type": "text",
+      "value": [
+        "4aac747b-36d8-4e25-a28f-19878c9ed213"
+      ]
+    },
+    {
+      "label": "name-1337",
+      "type": "text",
+      "value": [
+        "ES256"
+      ]
+    },
+    {
+      "label": "name-1338",
+      "type": "text",
+      "value": [
+        "INDIVIDUAL"
+      ]
+    },
+    {
+      "label": "name-1339",
+      "type": "text",
+      "value": [
+        "placeholder"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "privateKey": {}
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1334"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "-5B5ny149IMSUAZ0RkaU2Q"
+    }
+  ],
+  "record_uid": "l5vBZGNRmbi-FB4z2GzERC",
+  "shared_folder_permissions": [],
+  "title": "name-499",
+  "type": "login",
+  "user_permissions": []
+}

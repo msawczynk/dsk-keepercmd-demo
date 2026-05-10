@@ -1,0 +1,73 @@
+{
+  "custom": [
+    {
+      "label": "name-1413",
+      "type": "text",
+      "value": [
+        "admin"
+      ]
+    },
+    {
+      "label": "name-1414",
+      "type": "text",
+      "value": [
+        "SecureRootPass123!"
+      ]
+    },
+    {
+      "label": "name-1415",
+      "type": "text",
+      "value": [
+        "admin"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1412"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "4goXxvLlVe6l7aGRv0bSqU"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "XA5Dh5R0mRG8y_ZBD_t_1q",
+  "shared_folder_permissions": [],
+  "title": "name-845",
+  "type": "login",
+  "user_permissions": []
+}

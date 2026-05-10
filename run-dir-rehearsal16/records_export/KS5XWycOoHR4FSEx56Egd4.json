@@ -1,0 +1,93 @@
+{
+  "custom": [
+    {
+      "label": "name-1227",
+      "type": "text",
+      "value": [
+        "ts-test-e2e-068efafe"
+      ]
+    },
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "tsapp"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "staging"
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "pending"
+      ]
+    },
+    {
+      "label": "name-1228",
+      "type": "text",
+      "value": [
+        "1.0.0"
+      ]
+    },
+    {
+      "label": "name-1230",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-09T22:42:01.107686+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    },
+    {
+      "label": "name-1231",
+      "type": "text",
+      "value": [
+        "2026-03-09T22:42:00.887327+00:00"
+      ]
+    },
+    {
+      "label": "name-1232",
+      "type": "text",
+      "value": [
+        "0.1.0"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "KS5XWycOoHR4FSEx56Egd4",
+  "shared_folder_permissions": [],
+  "title": "name-582",
+  "type": "login",
+  "user_permissions": []
+}

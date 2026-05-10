@@ -1,0 +1,99 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1146",
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "1433"
+        }
+      ]
+    },
+    {
+      "label": "name-1240",
+      "type": "checkbox",
+      "value": []
+    },
+    {
+      "label": "name-1147",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "allowKeeperDB": true,
+            "allowKeeperDBProxy": true,
+            "allowSupplyUser": false,
+            "colorScheme": "white-black",
+            "port": "1433",
+            "protocol": "sql-server",
+            "recordingIncludeKeys": true
+          },
+          "portForward": {
+            "port": "1433"
+          }
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "W/BsqyLqDj76dFgnnD2rGOUXnvm468C8wWMHOIXA/k4="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1241",
+      "type": "text",
+      "value": [
+        "master"
+      ]
+    },
+    {
+      "label": "name-1242",
+      "type": "databaseType",
+      "value": [
+        "mssql"
+      ]
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "3-bQZKjpcp-ruZ2NDaN5Dw",
+  "shared_folder_permissions": [],
+  "title": "name-1087",
+  "type": "pamDatabase",
+  "user_permissions": []
+}

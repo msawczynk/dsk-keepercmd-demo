@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "required": true,
+      "type": "login",
+      "value": [
+        "name-1258"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "JEFrvOewQ24tyiFXb9B9VV"
+    }
+  ],
+  "record_uid": "O7dQ19saicv1Kig26ex7yD",
+  "shared_folder_permissions": [],
+  "title": "name-562",
+  "type": "pamUser",
+  "user_permissions": []
+}

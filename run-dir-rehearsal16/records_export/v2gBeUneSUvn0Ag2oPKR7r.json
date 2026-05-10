@@ -1,0 +1,49 @@
+{
+  "custom": [
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "host",
+      "value": [
+        {
+          "hostName": "149.102.159.192",
+          "port": "22"
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1294"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "4goXxvLlVe6l7aGRv0bSqU"
+    }
+  ],
+  "notes": "",
+  "record_uid": "v2gBeUneSUvn0Ag2oPKR7r",
+  "shared_folder_permissions": [],
+  "title": "name-996",
+  "type": "serverCredentials",
+  "user_permissions": []
+}

@@ -1,0 +1,59 @@
+{
+  "custom": [
+    {
+      "label": "name-1301",
+      "type": "text",
+      "value": [
+        "guacamole_db"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1272"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "2JP0F7RQbilqCz50etRJo5"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "A13R0Huq_-x0CKg8t1nQZg",
+  "shared_folder_permissions": [],
+  "title": "name-972",
+  "type": "login",
+  "user_permissions": []
+}

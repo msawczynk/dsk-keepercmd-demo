@@ -1,0 +1,37 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": []
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [],
+  "record_uid": "gQuQy31etHAEuJ0fgCBGlS",
+  "shared_folder_permissions": [],
+  "title": "name-1122",
+  "type": "login",
+  "user_permissions": []
+}

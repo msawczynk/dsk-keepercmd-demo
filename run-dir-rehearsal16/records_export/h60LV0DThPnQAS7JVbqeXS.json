@@ -1,0 +1,57 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "https://10.16.9.208:9011"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "autofillConfiguration": "- page: \"10.16.9.208:9011\"\n  username-field: \"input[type=email]\"\n  password-field: \"input[type=password]\"\n  submit: \"button[type=submit]\"\n- page: \"10.16.9.208:9011\"\n  username-field: \"input[name=email]\"\n  password-field: \"input[name=password]\"\n  submit: \"button.v-button\"",
+            "httpCredentialsUid": "YpseUB9h5z69iFCw1sklvA",
+            "ignoreInitialSslCert": true,
+            "protocol": "http"
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "ANbsKQ0ffMC5dMZ4OrFsUlNUfFHEe47uwERUzme6Cts="
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "h60LV0DThPnQAS7JVbqeXS",
+  "shared_folder_permissions": [],
+  "title": "name-401",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

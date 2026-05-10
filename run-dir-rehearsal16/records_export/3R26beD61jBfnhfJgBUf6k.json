@@ -1,0 +1,149 @@
+{
+  "custom": [
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "project-tracker"
+      ]
+    },
+    {
+      "label": "name-1158",
+      "type": "text",
+      "value": [
+        "1.0.0"
+      ]
+    },
+    {
+      "label": "name-1263",
+      "type": "text",
+      "value": [
+        "linux_amd64"
+      ]
+    },
+    {
+      "label": "name-1264",
+      "type": "text",
+      "value": [
+        "external_ref"
+      ]
+    },
+    {
+      "label": "name-1265",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1266",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1267",
+      "type": "text",
+      "value": [
+        "0"
+      ]
+    },
+    {
+      "label": "name-1268",
+      "type": "text",
+      "value": [
+        "docker.io/project-tracker:1.0.0"
+      ]
+    },
+    {
+      "label": "name-1160",
+      "type": "text",
+      "value": [
+        "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ]
+    },
+    {
+      "label": "name-1269",
+      "type": "text",
+      "value": [
+        "v1.0.0: Project tracking MCP server with SQLite backend, Docker deployment"
+      ]
+    },
+    {
+      "label": "name-1270",
+      "type": "text",
+      "value": [
+        "api"
+      ]
+    },
+    {
+      "label": "name-1257",
+      "type": "text",
+      "value": [
+        "true"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T13:33:48.644877+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "active"
+      ]
+    },
+    {
+      "label": "name-1319",
+      "type": "text",
+      "value": [
+        "{\"pre_install\": \"docker network create tracker-net 2>/dev/null || true\", \"install_command\": \"tar xzf {file} -C /opt/project-tracker\", \"post_install\": \"cd /opt/project-tracker && docker compose up -d\", \"working_dir\": \"/opt/project-tracker\"}"
+      ]
+    },
+    {
+      "label": "name-1320",
+      "type": "text",
+      "value": [
+        "{\"type\": \"docker\", \"name\": \"project-tracker\", \"project_name\": \"project-tracker\", \"compose_dir\": \"/opt/project-tracker\"}"
+      ]
+    },
+    {
+      "label": "name-1321",
+      "type": "text",
+      "value": [
+        "{\"type\": \"http\", \"target\": \"http://localhost:3100/health\", \"timeout\": 15, \"retries\": 5, \"interval\": 5, \"expected_status\": 200}"
+      ]
+    },
+    {
+      "label": "name-1322",
+      "type": "text",
+      "value": [
+        "cd /opt/project-tracker && docker compose down -v && rm -rf /opt/project-tracker"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "3R26beD61jBfnhfJgBUf6k",
+  "shared_folder_permissions": [],
+  "title": "name-1101",
+  "type": "login",
+  "user_permissions": []
+}

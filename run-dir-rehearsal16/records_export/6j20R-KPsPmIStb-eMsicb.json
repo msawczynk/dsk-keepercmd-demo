@@ -1,0 +1,65 @@
+{
+  "custom": [
+    {
+      "label": "name-1184",
+      "type": "text",
+      "value": [
+        "tyuN7beEMYoZd1_cStNmwE"
+      ]
+    },
+    {
+      "label": "name-1185",
+      "type": "text",
+      "value": [
+        "batch_completed"
+      ]
+    },
+    {
+      "label": "name-1186",
+      "type": "text",
+      "value": [
+        "system"
+      ]
+    },
+    {
+      "label": "name-1187",
+      "type": "text",
+      "value": [
+        "{\"batch\": 1, \"succeeded\": 0, \"failed\": 1}"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T14:01:22.574631+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "6j20R-KPsPmIStb-eMsicb",
+  "shared_folder_permissions": [],
+  "title": "name-384",
+  "type": "login",
+  "user_permissions": []
+}

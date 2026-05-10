@@ -1,0 +1,27 @@
+{
+  "custom": [
+    {
+      "type": "multiline",
+      "value": [
+        "#!/bin/bash\n\n# Function to log information messages\nlog_info() {\n    echo -e \"\\033[1;32m[INFO]\\033[0m $1\"\n}\n\n# Function to log error messages\nlog_error() {\n    echo -e \"\\033[1;31m[ERROR]\\033[0m $1\" >&2\n}\n\n# Function to prompt user for database port\nset_database_port() {\n    read -p \"Enter the database port (default is 3306): \" user_port\n    while ! [[ \"$user_port\" =~ ^[0-9]+$ ]] && [[ -n \"$user_port\" ]]; do\n        log_error \"Invalid input. Please enter a numeric value.\"\n        read -p \"Enter the database port (default is 3306): \" user_port\n    done\n    db_port=${user_port:-3306}\n    log_info \"Using database port: $db_port\"\n}\n\n# Function to prompt user for data to export\nmenu_selection() {\n    log_info \"Choose what data to export:\"\n    echo \"1) Connection History\"\n    echo \"2) Users\"\n    echo \"3) Groups\"\n    echo \"4) Connections\"\n    echo \"5) Export All\"\n    read -p \"Enter your choice (1-5): \" choice\n\n    case $choice in\n        1) export_category=\"history\";;\n        2) export_category=\"users\";;\n        3) export_category=\"groups\";;\n        4) export_category=\"connections\";;\n        5) export_category=\"all\";;\n        *) log_error \"Invalid choice. Please enter a number between 1-5.\"; exit 1;;\n    esac\n    log_info \"Selected export category: $export_category\"\n}\n\n# Function to extract database credentials using Python\nextract_db_credentials() {\n    log_info \"Extracting database credentials from docker-compose.yml...\"\n    credentials=$(python3 - <<EOF\nimport yaml, json\n\ndocker_compose_file = '/etc/kcm-setup/docker-compose.yml'\n\ntry:\n    with open(docker_compose_file, 'r') as file:\n        compose_data = yaml.safe_load(file)\n        db_service = compose_data['services']['db']\n        environment = db_service['environment']\n        \n        db_name = environment.get('GUACAMOLE_DATABASE', 'guacamole_db')\n        db_user = environment.get('GUACAMOLE_USERNAME', 'guacamole_user')\n        db_password = environment.get('GUACAMOLE_PASSWORD', 'password')\n        \n        print(json.dumps({\"user\": db_user, \"password\": db_password, \"database\": db_name}))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n    exit(1)\nEOF\n)\n\n    error=$(echo \"$credentials\" | jq -r '.error // empty')\n    if [[ -n \"$error\" ]]; then\n        log_error \"Failed to extract credentials: $error\"\n        exit 1\n    fi\n\n    db_user=$(echo \"$credentials\" | jq -r '.user')\n    db_password=$(echo \"$credentials\" | jq -r '.password')\n    database=$(echo \"$credentials\" | jq -r '.database')\n\n    log_info \"Database credentials extracted successfully.\"\n}\n\n# Function to export data using Python\nexport_data() {\n    export_file=\"${PWD}/export_data.json\"\n\n    if ! touch \"$export_file\" 2>/dev/null; then\n        log_error \"Cannot write to export file location: $export_file\"\n        exit 1\n    fi\n\n    log_info \"Exporting data to $export_file...\"\n\n    python3 - <<EOF\nimport mysql.connector\nimport json\nimport sys\nfrom datetime import datetime\n\ndb_config = {\n    \"host\": \"localhost\",\n    \"port\": ${db_port},\n    \"user\": \"${db_user}\",\n    \"password\": \"${db_password}\",\n    \"database\": \"${database}\"\n}\n\ndef serialize(obj):\n    if isinstance(obj, datetime):\n        return obj.isoformat()\n    return str(obj)\n\ntry:\n    conn = mysql.connector.connect(**db_config)\n    cursor = conn.cursor(dictionary=True)\n\n    data = {}\n\n    if \"${export_category}\" in [\"history\", \"all\"]:\n        cursor.execute(\"SELECT * FROM guacamole_connection_history\")\n        data[\"connection_history\"] = cursor.fetchall()\n\n    if \"${export_category}\" in [\"users\", \"all\"]:\n        cursor.execute(\"SELECT * FROM guacamole_user\")\n        data[\"users\"] = cursor.fetchall()\n\n    if \"${export_category}\" in [\"groups\", \"all\"]:\n        cursor.execute(\"SELECT * FROM guacamole_connection_group\")\n        data[\"groups\"] = cursor.fetchall()\n\n    if \"${export_category}\" in [\"connections\", \"all\"]:\n        cursor.execute(\"SELECT * FROM guacamole_connection\")\n        data[\"connections\"] = cursor.fetchall()\n\n    with open(\"${export_file}\", \"w\") as file:\n        json.dump(data, file, indent=4, default=serialize)\n\n    print(\"[INFO] Data export completed successfully!\")\n\nexcept mysql.connector.Error as err:\n    print(f\"[ERROR] Database error: {err}\", file=sys.stderr)\n    sys.exit(1)\n\nexcept Exception as e:\n    print(f\"[ERROR] An unexpected error occurred: {e}\", file=sys.stderr)\n    sys.exit(1)\n\nfinally:\n    if 'cursor' in locals() and cursor:\n        cursor.close()\n    if 'conn' in locals() and conn.is_connected():\n        conn.close()\nEOF\n}\n\n# Main script execution\nlog_info \"Starting export script...\"\nset_database_port\nextract_db_credentials\nmenu_selection\nexport_data\nlog_info \"Script execution completed successfully.\""
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "Keeper Demo Console users ",
+      "shared_folder_uid": "n5jGz-z3sPrXM-nVnhZWoG"
+    }
+  ],
+  "record_uid": "JJecPeNAHF6_jApCQwY6m3",
+  "shared_folder_permissions": [],
+  "title": "name-1096",
+  "type": "file",
+  "user_permissions": []
+}

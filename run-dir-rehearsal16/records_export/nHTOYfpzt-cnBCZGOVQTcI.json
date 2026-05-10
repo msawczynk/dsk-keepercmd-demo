@@ -1,0 +1,48 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "5901"
+        }
+      ]
+    },
+    {
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "OdcRb7Qt7qJLDmh47a/NIGoj6I5sLQn5Mvi9RmDoeB0="
+      ]
+    },
+    {
+      "type": "pamSettings",
+      "value": [
+        {
+          "connection": {
+            "port": "5901",
+            "protocol": "vnc",
+            "recordingIncludeKeys": true
+          },
+          "portForward": {
+            "port": "5901",
+            "reusePort": true
+          }
+        }
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "0DDW7WcJXBuROIhUtkFAmb"
+    }
+  ],
+  "record_uid": "nHTOYfpzt-cnBCZGOVQTcI",
+  "shared_folder_permissions": [],
+  "title": "name-1043",
+  "type": "pamMachine",
+  "user_permissions": []
+}

@@ -1,0 +1,194 @@
+{
+  "custom": [
+    {
+      "label": "name-1191",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "name-1192",
+      "type": "text",
+      "value": [
+        "juanito-test"
+      ]
+    },
+    {
+      "label": "name-1193",
+      "type": "text",
+      "value": [
+        "odZX_sSMIUhIsRl1PMllJZ"
+      ]
+    },
+    {
+      "label": "name-1194",
+      "type": "text",
+      "value": [
+        "pam gateway list"
+      ]
+    },
+    {
+      "label": "name-1195",
+      "type": "text",
+      "value": [
+        "pam project kcm-import --config \"odZX_sSMIUhIsRl1PMllJZ\" --docker-detect --groups \"El Laboratorio*\" --yes"
+      ]
+    },
+    {
+      "label": "name-1196",
+      "type": "text",
+      "value": [
+        "pam project kcm-cleanup --name \"juanito-test\" --dry-run"
+      ]
+    },
+    {
+      "label": "name-1197",
+      "type": "text",
+      "value": [
+        "pam project kcm-cleanup --name \"juanito-test\" --yes"
+      ]
+    },
+    {
+      "label": "name-1198",
+      "type": "text",
+      "value": [
+        "pam project kcm-import --name \"juanito-test\" --folder-mode \"ksm\" --max-instances \"0\" --groups \"El Laboratorio*\" --docker-detect --yes"
+      ]
+    },
+    {
+      "label": "name-1199",
+      "type": "text",
+      "value": [
+        "pam project kcm-import --name \"juanito-test\" --folder-mode \"ksm\" --max-instances \"0\" --groups \"El Laboratorio*\" --docker-detect --yes"
+      ]
+    },
+    {
+      "label": "name-1200",
+      "type": "text",
+      "value": [
+        "Docker auto-detect"
+      ]
+    },
+    {
+      "label": "name-1201",
+      "type": "text",
+      "value": [
+        "Created: 130, Skipped: 0, Errors: 0"
+      ]
+    },
+    {
+      "label": "name-1202",
+      "type": "text",
+      "value": [
+        "Copy the \"Deploy Gateway\" field and run it in your terminal. The gateway should appear as \"connected\" within 60 seconds."
+      ]
+    },
+    {
+      "label": "name-1203",
+      "type": "text",
+      "value": [
+        "pam gateway list"
+      ]
+    },
+    {
+      "label": "name-1204",
+      "type": "text",
+      "value": [
+        "Some records were imported without passwords \u2014 add credentials in vault."
+      ]
+    },
+    {
+      "label": "name-1205",
+      "type": "text",
+      "value": [
+        "Open a PAM connection in the vault to verify it works."
+      ]
+    },
+    {
+      "label": "name-1206",
+      "type": "text",
+      "value": [
+        "pam project kcm-cleanup --name \"juanito-test\" --dry-run"
+      ]
+    },
+    {
+      "label": "name-1207",
+      "type": "text",
+      "value": [
+        "juanito-test Gateway"
+      ]
+    },
+    {
+      "label": "name-1208",
+      "type": "text",
+      "value": [
+        "zKBaQXK9aJYr8q52tQBsai"
+      ]
+    },
+    {
+      "label": "name-1209",
+      "type": "text",
+      "value": [
+        "9NxgzWxnIiA1JdrP2EqdBB"
+      ]
+    },
+    {
+      "label": "name-1210",
+      "type": "text",
+      "value": [
+        "juanito-test - Resources"
+      ]
+    },
+    {
+      "label": "name-1211",
+      "type": "text",
+      "value": [
+        "vOdxs9go7sJEB4J9wlv5xn"
+      ]
+    },
+    {
+      "label": "name-1212",
+      "type": "text",
+      "value": [
+        "juanito-test - Users"
+      ]
+    },
+    {
+      "label": "name-1213",
+      "type": "text",
+      "value": [
+        "gaS3T2IOfGCDiviqnP6X1N"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "name-1189",
+      "type": "note",
+      "value": []
+    },
+    {
+      "label": "name-1190",
+      "type": "date",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": null
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "oxlfkrCdVN7sgV3fbifmgG",
+  "shared_folder_permissions": [],
+  "title": "name-797",
+  "type": "encryptedNotes",
+  "user_permissions": []
+}

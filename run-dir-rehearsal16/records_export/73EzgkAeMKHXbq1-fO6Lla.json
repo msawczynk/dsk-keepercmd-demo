@@ -1,0 +1,91 @@
+{
+  "custom": [
+    {
+      "label": "name-1248",
+      "type": "text",
+      "value": [
+        "AIzaSyC3lnOYkbIbKHifPEtxlrdoUnyxtB_cuVU"
+      ]
+    },
+    {
+      "label": "name-1341",
+      "type": "text",
+      "value": [
+        "wherediputit-enterprise.firebaseapp.com"
+      ]
+    },
+    {
+      "label": "name-1327",
+      "type": "text",
+      "value": [
+        "wherediputit-enterprise"
+      ]
+    },
+    {
+      "label": "name-1342",
+      "type": "text",
+      "value": [
+        "wherediputit-enterprise.firebasestorage.app"
+      ]
+    },
+    {
+      "label": "name-1343",
+      "type": "text",
+      "value": [
+        "392913319275"
+      ]
+    },
+    {
+      "label": "name-1344",
+      "type": "text",
+      "value": [
+        "1:392913319275:web:kJ2xQjPDp_sJBgV7EmThus"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "privateKey": {}
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1340"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "-5B5ny149IMSUAZ0RkaU2Q"
+    }
+  ],
+  "record_uid": "73EzgkAeMKHXbq1-fO6Lla",
+  "shared_folder_permissions": [],
+  "title": "name-1065",
+  "type": "login",
+  "user_permissions": []
+}

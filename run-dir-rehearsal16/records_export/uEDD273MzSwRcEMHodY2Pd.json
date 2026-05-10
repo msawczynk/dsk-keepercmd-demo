@@ -1,0 +1,75 @@
+{
+  "custom": [
+    {
+      "label": "",
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "login",
+      "value": [
+        "name-1292"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1234",
+      "type": "secret",
+      "value": []
+    },
+    {
+      "label": "name-1235",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1236",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1237",
+      "type": "checkbox",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "1kam34oQ7tpjZ5dgYb48ty"
+    }
+  ],
+  "notes": "",
+  "record_uid": "uEDD273MzSwRcEMHodY2Pd",
+  "shared_folder_permissions": [],
+  "title": "name-816",
+  "type": "pamUser",
+  "user_permissions": []
+}

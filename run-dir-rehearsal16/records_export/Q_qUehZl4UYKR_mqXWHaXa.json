@@ -1,0 +1,57 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "https://keeperlima-dev.onelogin.com/"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "autofillConfiguration": "- page: \"*.onelogin.com\"\n  username-field: \"#username\"\n  submit: \"button[type='submit']\"\n- page: \"*.onelogin.com\"\n  username-field: \"input[data-testid='username']\"\n  submit: \"button[type='submit']\"\n- page: \"*.onelogin.com\"\n  password-field: \"#password\"\n  submit: \"button[type='submit']\"\n- page: \"*.onelogin.com\"\n  password-field: \"input[data-testid='password']\"\n  submit: \"button[type='submit']\"\n- page: \"*.onelogin.com\"\n  password-field: \"input[autocomplete='current-password']\"\n  submit: \"button[type='submit']\"",
+            "disableAudio": true,
+            "httpCredentialsUid": "73oTXvc0WUjuSmYqGpoNpD",
+            "ignoreInitialSslCert": true,
+            "protocol": "http",
+            "recordingIncludeKeys": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "2z/zi7hS8CLkjIhpy2ZSt2/56juDtEHyxOpha/7w6fw="
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "0DDW7WcJXBuROIhUtkFAmb"
+    }
+  ],
+  "notes": "",
+  "record_uid": "Q_qUehZl4UYKR_mqXWHaXa",
+  "shared_folder_permissions": [],
+  "title": "name-855",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

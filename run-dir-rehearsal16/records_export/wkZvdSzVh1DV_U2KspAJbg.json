@@ -1,0 +1,91 @@
+{
+  "custom": [
+    {
+      "label": "name-1403",
+      "type": "text",
+      "value": [
+        "appl_dBLaXIXPgydGsIBSFKhCMikXmMW"
+      ]
+    },
+    {
+      "label": "name-1404",
+      "type": "text",
+      "value": [
+        "goog_XtCeTfwnLbndbHxWRVqFaiXiGzK"
+      ]
+    },
+    {
+      "label": "name-1468",
+      "type": "text",
+      "value": [
+        "wherediputit_enterprise_starter_monthly"
+      ]
+    },
+    {
+      "label": "name-1469",
+      "type": "text",
+      "value": [
+        "wherediputit_enterprise_business_monthly"
+      ]
+    },
+    {
+      "label": "name-1470",
+      "type": "text",
+      "value": [
+        "wherediputit_enterprise_scale_monthly"
+      ]
+    },
+    {
+      "label": "name-1408",
+      "type": "text",
+      "value": [
+        "enterprise"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "privateKey": {}
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1467"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "-5B5ny149IMSUAZ0RkaU2Q"
+    }
+  ],
+  "record_uid": "wkZvdSzVh1DV_U2KspAJbg",
+  "shared_folder_permissions": [],
+  "title": "name-1112",
+  "type": "login",
+  "user_permissions": []
+}

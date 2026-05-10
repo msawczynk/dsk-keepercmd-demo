@@ -1,0 +1,66 @@
+{
+  "custom": [
+    {
+      "type": "host",
+      "value": [
+        {
+          "hostName": "login.splunk.com"
+        }
+      ]
+    },
+    {
+      "label": "name-1494",
+      "type": "multiline",
+      "value": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<license>\n<signature>ii2GOsl99Vf2AqsW/bnYdyVrcsReGYRMhm2HlSDGLc1Xdojqi8WGjPpbhVkcOyqPZVsguO7jIdST6nC7RMkelfxgQCjaLJfNyt14Uuf/Dy+8SadahQ2SlEYmvgkwx7cbPPMDezLYjeHKo9kIGu/VnrZM5On2+lr6FuzWAlgqCja9jyUm+1ahPt6LMaPxeFJWXOScd0rmFi9V0VgFBWvYHpAh3bSgawa6fFYmBGyPjAaTe2WZc1vPRO3gpUsDJlOq5+TS4Fm9qUxXTuu7w+OexVdisATPUYIXkRQ7EyBrB0bUoC9N3jez4iyOL2IvlCxprzpr7LauHcPr0DB9z9/nRA==</signature>\n<payload>\n<type>enterprise</type>\n<group_id>Enterprise</group_id>\n<quota>10737418240</quota>\n<max_violations>5</max_violations>\n<window_period>30</window_period>\n<creation_time>1703232000</creation_time>\n<label>Splunk Developer Personal License DO NOT DISTRIBUTE</label>\n<expiration_time>1718866799</expiration_time>\n<features>\n<feature>Auth</feature>\n<feature>FwdData</feature>\n<feature>RcvData</feature>\n<feature>LocalSearch</feature>\n<feature>DistSearch</feature>\n<feature>RcvSearch</feature>\n<feature>ScheduledSearch</feature>\n<feature>Alerting</feature>\n<feature>DeployClient</feature>\n<feature>DeployServer</feature>\n<feature>SplunkWeb</feature>\n<feature>SigningProcessor</feature>\n<feature>SyslogOutputProcessor</feature>\n<feature>CanBeRemoteMaster</feature>\n</features>\n<add_ons>\n<add_on name=\"itsi\" type=\"app\">\n<parameter key=\"size\" value=\"10\"/>\n</add_on>\n</add_ons>\n<sourcetypes/>\n<guid>FDFBABA7-57BF-4ACB-8EE1-7C358BF7486A</guid>\n</payload>\n</license>\n"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1303"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "n5jGz-z3sPrXM-nVnhZWoG"
+    },
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "n5jGz-z3sPrXM-nVnhZWoG"
+    }
+  ],
+  "record_uid": "h-6MiQdEK5c5K77KfFIYhJ",
+  "shared_folder_permissions": [],
+  "title": "name-603",
+  "type": "login",
+  "user_permissions": []
+}

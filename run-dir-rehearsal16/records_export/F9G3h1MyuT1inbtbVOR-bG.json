@@ -1,0 +1,36 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": []
+    },
+    {
+      "type": "password",
+      "value": []
+    },
+    {
+      "type": "url",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [],
+  "notes": "redacted-text-content",
+  "record_uid": "F9G3h1MyuT1inbtbVOR-bG",
+  "shared_folder_permissions": [],
+  "title": "name-382",
+  "type": "login",
+  "user_permissions": []
+}

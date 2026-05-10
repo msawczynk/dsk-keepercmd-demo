@@ -1,0 +1,66 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "27017"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "a5L3/rvw2emEpzmHmebfKj0i8TjJ1+mdwNGT2nMj+s0="
+      ]
+    },
+    {
+      "label": "",
+      "type": "databaseType",
+      "value": [
+        "mongodb"
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "database": "mydatabase",
+            "protocol": "http",
+            "userRecords": [
+              "rE-n-LXzf1oBCK54vBamWl"
+            ]
+          },
+          "portForward": {
+            "reusePort": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "UxYuaVl582iZIkK73RSPAS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "uNQyPGtDrvmH_-t0fT51H8",
+  "shared_folder_permissions": [],
+  "title": "name-791",
+  "type": "pamDatabase",
+  "user_permissions": []
+}

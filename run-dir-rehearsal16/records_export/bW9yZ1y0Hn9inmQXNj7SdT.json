@@ -1,0 +1,37 @@
+{
+  "custom": [
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1422"
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "bW9yZ1y0Hn9inmQXNj7SdT",
+  "shared_folder_permissions": [],
+  "title": "name-1005",
+  "type": "login",
+  "user_permissions": []
+}

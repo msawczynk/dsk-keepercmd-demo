@@ -1,0 +1,72 @@
+{
+  "custom": [
+    {
+      "label": "name-1172",
+      "type": "text",
+      "value": [
+        "Ubuntu Main"
+      ]
+    },
+    {
+      "label": "name-1314",
+      "type": "text",
+      "value": [
+        "os_repo"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "*"
+      ]
+    },
+    {
+      "label": "name-1170",
+      "type": "text",
+      "value": [
+        "http://archive.ubuntu.com"
+      ]
+    },
+    {
+      "label": "name-1257",
+      "type": "text",
+      "value": [
+        "true"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-04-02T23:45:40.691536+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "IcGmMhh6JWAeu0ytcK05-9"
+    }
+  ],
+  "record_uid": "Jb1UvukEzCItjoOmQHVye_",
+  "shared_folder_permissions": [],
+  "title": "name-324",
+  "type": "login",
+  "user_permissions": []
+}

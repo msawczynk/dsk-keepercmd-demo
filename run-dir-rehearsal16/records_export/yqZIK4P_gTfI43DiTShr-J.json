@@ -1,0 +1,61 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "3389"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "wYgTnv0BA6kz84VfsbM454JGd6If6GOI+XHp3r1c/bI="
+      ]
+    },
+    {
+      "label": "",
+      "type": "pamSettings",
+      "value": [
+        {
+          "allowSupplyHost": "",
+          "connection": {
+            "ignoreCert": true,
+            "protocol": "rdp",
+            "resizeMethod": "display-update",
+            "security": "any",
+            "userRecords": [
+              "VLBiyD-0lfd0QYdBKMbuXv"
+            ]
+          },
+          "portForward": {
+            "reusePort": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "UxYuaVl582iZIkK73RSPAS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "yqZIK4P_gTfI43DiTShr-J",
+  "shared_folder_permissions": [],
+  "title": "name-841",
+  "type": "pamMachine",
+  "user_permissions": []
+}

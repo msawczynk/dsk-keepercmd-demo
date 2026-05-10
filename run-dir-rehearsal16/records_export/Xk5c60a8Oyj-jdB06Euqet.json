@@ -1,0 +1,60 @@
+{
+  "custom": [
+    {
+      "type": "host",
+      "value": [
+        {
+          "hostName": "dropbox.com"
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1382"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": [
+        "Wk4f-_QwX7HHNJchjchI7a"
+      ]
+    },
+    {
+      "type": "oneTimeCode",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "n5jGz-z3sPrXM-nVnhZWoG"
+    }
+  ],
+  "notes": "",
+  "record_uid": "Xk5c60a8Oyj-jdB06Euqet",
+  "shared_folder_permissions": [],
+  "title": "name-1123",
+  "type": "login",
+  "user_permissions": []
+}

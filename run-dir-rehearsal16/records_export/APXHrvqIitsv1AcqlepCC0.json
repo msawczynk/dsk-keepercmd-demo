@@ -1,0 +1,65 @@
+{
+  "custom": [
+    {
+      "label": "name-1184",
+      "type": "text",
+      "value": [
+        "AqcWoOiLY17KSJC0vXqXwJ"
+      ]
+    },
+    {
+      "label": "name-1185",
+      "type": "text",
+      "value": [
+        "host_failed"
+      ]
+    },
+    {
+      "label": "name-1186",
+      "type": "text",
+      "value": [
+        "web-2"
+      ]
+    },
+    {
+      "label": "name-1187",
+      "type": "text",
+      "value": [
+        "{\"error\": \"[Errno 2] No such file or directory: 'docker'\"}"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T14:01:17.699174+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "APXHrvqIitsv1AcqlepCC0",
+  "shared_folder_permissions": [],
+  "title": "name-884",
+  "type": "login",
+  "user_permissions": []
+}

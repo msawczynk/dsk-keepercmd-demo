@@ -1,0 +1,107 @@
+{
+  "custom": [
+    {
+      "label": "name-1227",
+      "type": "text",
+      "value": [
+        "api-dev-01"
+      ]
+    },
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "demo-api"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "development"
+      ]
+    },
+    {
+      "label": "name-1228",
+      "type": "text",
+      "value": [
+        "1.0.0"
+      ]
+    },
+    {
+      "label": "name-1229",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "running"
+      ]
+    },
+    {
+      "label": "name-1230",
+      "type": "text",
+      "value": [
+        "1.0.0"
+      ]
+    },
+    {
+      "label": "name-1184",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T14:11:13.401559+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "active"
+      ]
+    },
+    {
+      "label": "name-1231",
+      "type": "text",
+      "value": [
+        "2026-03-11T14:08:53.536395+00:00"
+      ]
+    },
+    {
+      "label": "name-1232",
+      "type": "text",
+      "value": [
+        "0.2.0"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "AM_ihdlK28DERNa9h_xhM_",
+  "shared_folder_permissions": [],
+  "title": "name-772",
+  "type": "login",
+  "user_permissions": []
+}

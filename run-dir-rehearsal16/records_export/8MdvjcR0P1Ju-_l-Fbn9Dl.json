@@ -1,0 +1,42 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "type": "login",
+      "value": []
+    },
+    {
+      "type": "password",
+      "value": []
+    },
+    {
+      "type": "url",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": [
+        "69qkfVDsB0wFSLM-X4Juye"
+      ]
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": null
+    }
+  ],
+  "record_uid": "8MdvjcR0P1Ju-_l-Fbn9Dl",
+  "shared_folder_permissions": [],
+  "title": "name-506",
+  "type": "login",
+  "user_permissions": []
+}

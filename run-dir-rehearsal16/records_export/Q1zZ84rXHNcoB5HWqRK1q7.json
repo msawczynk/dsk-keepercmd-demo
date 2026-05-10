@@ -1,0 +1,72 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "",
+      "required": true,
+      "type": "pamResources",
+      "value": [
+        {
+          "controllerUid": "diykS3TqpXcwSQQlz3_Y9s",
+          "folderUid": "EhZ3rO9gDN1yLokQ_Y6VJY",
+          "resourceRef": ""
+        }
+      ]
+    },
+    {
+      "label": "name-1350",
+      "required": true,
+      "type": "schedule",
+      "value": [
+        {
+          "cron": "0 0 4 * * ?",
+          "month": "",
+          "time": "",
+          "type": "CRON",
+          "tz": "Etc/UTC"
+        }
+      ]
+    },
+    {
+      "label": "name-1351",
+      "type": "text",
+      "value": [
+        "TheLabTestlab"
+      ]
+    },
+    {
+      "label": "name-1352",
+      "type": "text",
+      "value": [
+        "172.21.0.0/16"
+      ]
+    },
+    {
+      "label": "name-1353",
+      "type": "multiline",
+      "value": []
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "notes": "",
+  "record_uid": "Q1zZ84rXHNcoB5HWqRK1q7",
+  "shared_folder_permissions": [],
+  "title": "name-439",
+  "type": "pamNetworkConfiguration",
+  "user_permissions": []
+}

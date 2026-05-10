@@ -1,0 +1,104 @@
+{
+  "custom": [
+    {
+      "label": "name-1247",
+      "type": "text",
+      "value": [
+        "https://wdpi-api.c3por2d2.makitarcade.com"
+      ]
+    },
+    {
+      "label": "name-1248",
+      "type": "text",
+      "value": [
+        "wdpi_ent_34330523edcea6ec0fa03c0d03e7f70e2ad6b1f9fb5cdf810fa299fd43668e4d"
+      ]
+    },
+    {
+      "label": "name-1249",
+      "type": "text",
+      "value": [
+        "KBsSUxB-YuinzANzP2eDQxyhOfkoZzHZ93JCIzdHhOCJ1F9FiUysBKoq7KyWPIrdCRpQ8YBy-MZtvgUxP4GKLg"
+      ]
+    },
+    {
+      "label": "name-1250",
+      "type": "text",
+      "value": [
+        "user-021@example.test"
+      ]
+    },
+    {
+      "label": "name-1251",
+      "type": "text",
+      "value": [
+        "wdpi"
+      ]
+    },
+    {
+      "label": "name-1252",
+      "type": "text",
+      "value": [
+        "localdev123"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": [
+        {
+          "createdDate": "",
+          "credentialId": "",
+          "privateKey": {},
+          "relyingParty": "",
+          "signCount": "",
+          "userId": "",
+          "username": ""
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1246"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "-5B5ny149IMSUAZ0RkaU2Q"
+    }
+  ],
+  "notes": "",
+  "record_uid": "FQVTB59nsgUoNu7csLG6Rq",
+  "shared_folder_permissions": [],
+  "title": "name-891",
+  "type": "login",
+  "user_permissions": []
+}

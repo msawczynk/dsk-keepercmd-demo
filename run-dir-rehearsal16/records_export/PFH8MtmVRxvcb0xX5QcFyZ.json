@@ -1,0 +1,34 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1189",
+      "type": "note",
+      "value": []
+    },
+    {
+      "label": "name-1190",
+      "type": "date",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": [
+        "LFwY-EsmZQA_Z1_6SW4qOb"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": null
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "PFH8MtmVRxvcb0xX5QcFyZ",
+  "shared_folder_permissions": [],
+  "title": "name-835",
+  "type": "encryptedNotes",
+  "user_permissions": []
+}

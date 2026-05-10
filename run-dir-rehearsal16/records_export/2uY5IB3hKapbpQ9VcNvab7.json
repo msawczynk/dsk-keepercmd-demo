@@ -1,0 +1,101 @@
+{
+  "custom": [
+    {
+      "label": "name-1215",
+      "type": "text",
+      "value": [
+        "3%p&y7q&@rxiS8pGYP555YXVcx7SHU^I#fOsYJt6i64c2z8t%BBqTIohMTqEXP0q"
+      ]
+    },
+    {
+      "label": "name-1216",
+      "type": "text",
+      "value": [
+        "@6Od#i%gQGc&QT&svsZDrQGn7$n*42KcHMxPldm#R9QF1HYu1$sB&i#PU1480MuW"
+      ]
+    },
+    {
+      "label": "name-1217",
+      "type": "text",
+      "value": [
+        "Rq8hlGOkttW7H8ZduTw7k99CaD1HuVT68nO9TD2KXzZtDj1QFXL-Kiz3Th6v1ZRa"
+      ]
+    },
+    {
+      "label": "name-1218",
+      "type": "text",
+      "value": [
+        "rG5eLycdp7RodlX&#Wduw!m1TOHNxML6"
+      ]
+    },
+    {
+      "label": "name-1219",
+      "type": "text",
+      "value": [
+        "k8#!Quz@q37a*fh4RTxUTNMoyxz#TRW*"
+      ]
+    },
+    {
+      "label": "name-1220",
+      "type": "text",
+      "value": [
+        "pjh9MtCq5BQ3j%5bo5Ev1eK7YcNo@9Dt"
+      ]
+    },
+    {
+      "label": "name-1221",
+      "type": "text",
+      "value": [
+        "QWfsFGc05lNXM*epqdjq26z4WMyWrmu7"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1214"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "4goXxvLlVe6l7aGRv0bSqU"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "2uY5IB3hKapbpQ9VcNvab7",
+  "shared_folder_permissions": [],
+  "title": "name-828",
+  "type": "login",
+  "user_permissions": []
+}

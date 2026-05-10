@@ -1,0 +1,114 @@
+{
+  "custom": [
+    {
+      "label": "name-1172",
+      "type": "text",
+      "value": [
+        "Full Test"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "production"
+      ]
+    },
+    {
+      "label": "name-1275",
+      "type": "text",
+      "value": [
+        "nginx*"
+      ]
+    },
+    {
+      "label": "name-1354",
+      "type": "text",
+      "value": [
+        ">=1.18"
+      ]
+    },
+    {
+      "label": "name-1355",
+      "type": "text",
+      "value": [
+        "os_repo"
+      ]
+    },
+    {
+      "label": "name-1276",
+      "type": "text",
+      "value": [
+        "allow"
+      ]
+    },
+    {
+      "label": "name-1299",
+      "type": "text",
+      "value": [
+        "50"
+      ]
+    },
+    {
+      "label": "name-1356",
+      "type": "text",
+      "value": [
+        "epm-pol-123"
+      ]
+    },
+    {
+      "label": "name-1229",
+      "type": "text",
+      "value": [
+        "epm-col-456"
+      ]
+    },
+    {
+      "label": "name-1357",
+      "type": "text",
+      "value": [
+        "admin"
+      ]
+    },
+    {
+      "label": "name-1257",
+      "type": "text",
+      "value": [
+        "true"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-04-02T23:38:03.749717+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "IcGmMhh6JWAeu0ytcK05-9"
+    }
+  ],
+  "record_uid": "BMoTz1ba8USfPDadrWDIkG",
+  "shared_folder_permissions": [],
+  "title": "name-863",
+  "type": "login",
+  "user_permissions": []
+}

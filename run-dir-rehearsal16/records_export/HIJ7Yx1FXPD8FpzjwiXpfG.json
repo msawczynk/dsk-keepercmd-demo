@@ -1,0 +1,127 @@
+{
+  "custom": [
+    {
+      "label": "name-1403",
+      "type": "text",
+      "value": [
+        "appl_OPNDDYisyKAgZkLKrHgWHzWoFJz"
+      ]
+    },
+    {
+      "label": "name-1404",
+      "type": "text",
+      "value": [
+        "goog_CTXCvIaPFEKDbrRgfpGKRdEgcBJ"
+      ]
+    },
+    {
+      "label": "name-1405",
+      "type": "text",
+      "value": [
+        "wherediputit_pro:monthly"
+      ]
+    },
+    {
+      "label": "name-1406",
+      "type": "text",
+      "value": [
+        "wherediputit_pro:yearly"
+      ]
+    },
+    {
+      "label": "name-1407",
+      "type": "text",
+      "value": [
+        "pro_access"
+      ]
+    },
+    {
+      "label": "name-1408",
+      "type": "text",
+      "value": [
+        "enterprise_access"
+      ]
+    },
+    {
+      "label": "name-1409",
+      "type": "text",
+      "value": [
+        "wherediputit_home:monthly"
+      ]
+    },
+    {
+      "label": "name-1410",
+      "type": "text",
+      "value": [
+        "wherediputit_home:yearly"
+      ]
+    },
+    {
+      "label": "name-1411",
+      "type": "text",
+      "value": [
+        "home_access"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": [
+        {
+          "createdDate": "",
+          "credentialId": "",
+          "privateKey": {},
+          "relyingParty": "",
+          "signCount": "",
+          "userId": "",
+          "username": ""
+        }
+      ]
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": [
+        "name-1402"
+      ]
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "SxK3ynuFdNdK37L8pDiXSG"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "HIJ7Yx1FXPD8FpzjwiXpfG",
+  "shared_folder_permissions": [],
+  "title": "name-1066",
+  "type": "login",
+  "user_permissions": []
+}

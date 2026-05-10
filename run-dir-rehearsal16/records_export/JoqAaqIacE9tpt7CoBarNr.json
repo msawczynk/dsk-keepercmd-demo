@@ -1,0 +1,68 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "createdDate": 1710865740671,
+          "credentialId": "jD0WSXbx2Evg3IRDneID_WY8ZEfoofrDiHAkKNTlXn8",
+          "privateKey": {
+            "alg": "ES256",
+            "crv": "P-256",
+            "d": "r_Ih2WVfKi5tBnQCOrOU68NBn-7Sztjpnfb1MJ7nry0",
+            "ext": true,
+            "key_ops": [
+              "sign"
+            ],
+            "kty": "EC",
+            "x": "BdPRSzKlblzajLyqaqStudM14BZZWiPH0MVnJU7wxZo",
+            "y": "RbU_ZhY1Njjlhulat0JEIv62UWvp-9usKhvXw8FXMvg"
+          },
+          "relyingParty": "google.com",
+          "signCount": 0,
+          "userId": "R09PR0xFX0FDQ09VTlQ6MTE3NzM3NTg4NTAzNTg5OTUxMjY5",
+          "username": "user-024@example.test"
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1382"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "n5jGz-z3sPrXM-nVnhZWoG"
+    }
+  ],
+  "notes": "",
+  "record_uid": "JoqAaqIacE9tpt7CoBarNr",
+  "shared_folder_permissions": [],
+  "title": "name-290",
+  "type": "login",
+  "user_permissions": []
+}

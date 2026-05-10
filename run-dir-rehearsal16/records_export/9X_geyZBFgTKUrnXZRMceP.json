@@ -1,0 +1,93 @@
+{
+  "custom": [
+    {
+      "label": "name-1227",
+      "type": "text",
+      "value": [
+        "staging-02.makitarcade.com"
+      ]
+    },
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "demo-api"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "staging"
+      ]
+    },
+    {
+      "label": "name-1228",
+      "type": "text",
+      "value": [
+        "0.9.0"
+      ]
+    },
+    {
+      "label": "name-1229",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "pending"
+      ]
+    },
+    {
+      "label": "name-1230",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1184",
+      "type": "text",
+      "value": [
+        "ql-0RJGI88BpL1JcDAChUM"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "3"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T14:09:52.305478+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "9X_geyZBFgTKUrnXZRMceP",
+  "shared_folder_permissions": [],
+  "title": "name-364",
+  "type": "login",
+  "user_permissions": []
+}

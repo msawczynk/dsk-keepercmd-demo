@@ -1,0 +1,89 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "type": "pamHostname",
+      "value": [
+        {
+          "hostName": "https://example.test/path-N",
+          "port": "3306"
+        }
+      ]
+    },
+    {
+      "label": "name-1240",
+      "type": "checkbox",
+      "value": [
+        true
+      ]
+    },
+    {
+      "type": "pamSettings",
+      "value": [
+        {
+          "connection": {
+            "allowKeeperDB": true,
+            "allowKeeperDBProxy": true,
+            "colorScheme": "white-black",
+            "port": "3306",
+            "protocol": "mysql",
+            "recordingIncludeKeys": true
+          },
+          "portForward": {
+            "port": "3306",
+            "reusePort": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "+hxNm3n72X/y8/gdkz8stC3RcS8hhjwpxgPanXxkdhg="
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1241",
+      "type": "text",
+      "value": []
+    },
+    {
+      "type": "databaseType",
+      "value": []
+    },
+    {
+      "label": "name-1153",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1154",
+      "type": "text",
+      "value": []
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "0DDW7WcJXBuROIhUtkFAmb"
+    }
+  ],
+  "record_uid": "EuuGVMmrzmiGBpN-tGyxvE",
+  "shared_folder_permissions": [],
+  "title": "name-677",
+  "type": "pamDatabase",
+  "user_permissions": []
+}

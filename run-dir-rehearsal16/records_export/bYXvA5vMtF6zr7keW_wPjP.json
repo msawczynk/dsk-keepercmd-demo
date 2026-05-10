@@ -1,0 +1,100 @@
+{
+  "custom": [
+    {
+      "label": "name-1359",
+      "type": "text",
+      "value": [
+        "user-027@example.test"
+      ]
+    },
+    {
+      "label": "name-1360",
+      "type": "text",
+      "value": [
+        "Sarah Martinez"
+      ]
+    },
+    {
+      "label": "name-1361",
+      "type": "text",
+      "value": [
+        "false"
+      ]
+    },
+    {
+      "label": "name-1362",
+      "type": "text",
+      "value": [
+        "0"
+      ]
+    },
+    {
+      "label": "name-1363",
+      "type": "text",
+      "value": [
+        "true"
+      ]
+    },
+    {
+      "label": "name-1364",
+      "type": "text",
+      "value": [
+        "false"
+      ]
+    },
+    {
+      "label": "name-1178",
+      "type": "text",
+      "value": [
+        "2026-02-04T17:01:24+00:00"
+      ]
+    },
+    {
+      "label": "name-1179",
+      "type": "text",
+      "value": [
+        "2026-03-06T17:01:24+00:00"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-06T17:14:27.632141+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "active"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "bYXvA5vMtF6zr7keW_wPjP",
+  "shared_folder_permissions": [],
+  "title": "name-999",
+  "type": "login",
+  "user_permissions": []
+}

@@ -1,0 +1,156 @@
+{
+  "custom": [
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "keeper-deploy-agent"
+      ]
+    },
+    {
+      "label": "name-1158",
+      "type": "text",
+      "value": [
+        "0.2.0"
+      ]
+    },
+    {
+      "label": "name-1263",
+      "type": "text",
+      "value": [
+        "linux_amd64"
+      ]
+    },
+    {
+      "label": "name-1264",
+      "type": "text",
+      "value": [
+        "vault_file"
+      ]
+    },
+    {
+      "label": "name-1265",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1266",
+      "type": "text",
+      "value": [
+        "keeper-deploy-agent-0.2.0.tar.gz"
+      ]
+    },
+    {
+      "label": "name-1267",
+      "type": "text",
+      "value": [
+        "2150000"
+      ]
+    },
+    {
+      "label": "name-1268",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1160",
+      "type": "text",
+      "value": [
+        "sha256:agent020hash"
+      ]
+    },
+    {
+      "label": "name-1269",
+      "type": "text",
+      "value": [
+        "v0.2.0: Added self-update, health probes, secret injection, EPM privilege elevation"
+      ]
+    },
+    {
+      "label": "name-1270",
+      "type": "text",
+      "value": [
+        "dashboard-setup"
+      ]
+    },
+    {
+      "label": "name-1257",
+      "type": "text",
+      "value": [
+        "true"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T13:33:41.214310+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "active"
+      ]
+    },
+    {
+      "label": "name-1319",
+      "type": "text",
+      "value": [
+        "{\"pre_install\": \"mkdir -p /opt/keeper-deploy/bin\", \"install_command\": \"install -m 755 {file} /opt/keeper-deploy/bin/keeper-deploy-agent\", \"post_install\": \"systemctl daemon-reload && systemctl enable keeper-deploy-agent\"}"
+      ]
+    },
+    {
+      "label": "name-1320",
+      "type": "text",
+      "value": [
+        "{\"type\": \"systemd\", \"name\": \"keeper-deploy-agent\"}"
+      ]
+    },
+    {
+      "label": "name-1321",
+      "type": "text",
+      "value": [
+        "{\"type\": \"process\", \"target\": \"keeper-deploy-agent\", \"timeout\": 10, \"retries\": 3, \"interval\": 5}"
+      ]
+    },
+    {
+      "label": "name-1322",
+      "type": "text",
+      "value": [
+        "systemctl stop keeper-deploy-agent && rm -f /opt/keeper-deploy/bin/keeper-deploy-agent"
+      ]
+    },
+    {
+      "label": "name-1464",
+      "type": "text",
+      "value": [
+        "0.1.0"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "eT4XyfXoDMStFX6lTxcj_Q",
+  "shared_folder_permissions": [],
+  "title": "name-354",
+  "type": "login",
+  "user_permissions": []
+}

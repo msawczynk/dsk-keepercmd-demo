@@ -1,0 +1,64 @@
+{
+  "custom": [
+    {
+      "label": "name-1369",
+      "type": "text",
+      "value": [
+        "noreply@example.test"
+      ]
+    },
+    {
+      "label": "name-1370",
+      "type": "text",
+      "value": [
+        "https://app.wherediputit.com"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "label": "",
+      "type": "passkey",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "login",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "",
+      "type": "url",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "-5B5ny149IMSUAZ0RkaU2Q"
+    }
+  ],
+  "notes": "",
+  "record_uid": "I7McJRylFWHyerpJ6QnQS9",
+  "shared_folder_permissions": [],
+  "title": "name-446",
+  "type": "login",
+  "user_permissions": []
+}

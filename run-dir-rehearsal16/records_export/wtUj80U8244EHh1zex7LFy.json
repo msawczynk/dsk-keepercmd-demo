@@ -1,0 +1,29 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1189",
+      "type": "note",
+      "value": []
+    },
+    {
+      "label": "name-1190",
+      "type": "date",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": [
+        "OgbNJGGugZwbnuPC6eSsst"
+      ]
+    }
+  ],
+  "folders": [],
+  "notes": "redacted-text-content",
+  "record_uid": "wtUj80U8244EHh1zex7LFy",
+  "shared_folder_permissions": [],
+  "title": "name-704",
+  "type": "encryptedNotes",
+  "user_permissions": []
+}

@@ -1,0 +1,56 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1180",
+      "required": true,
+      "type": "rbiUrl",
+      "value": [
+        "http://10.16.9.208:8090/users/sign_in"
+      ]
+    },
+    {
+      "label": "name-1181",
+      "type": "pamRemoteBrowserSettings",
+      "value": [
+        {
+          "connection": {
+            "allowUrlManipulation": true,
+            "autofillConfiguration": "page: \"10.16.9.208:8090\" | username-field: \"input#ldapmain_username\" | password-field: \"input#ldapmain_password\" | submit: \"button[type=submit]\"",
+            "httpCredentialsUid": "WmcLPpix6j087jf2Lh5XJr",
+            "protocol": "http"
+          }
+        }
+      ]
+    },
+    {
+      "label": "name-1148",
+      "type": "trafficEncryptionSeed",
+      "value": [
+        "sKCnNY/y0k/Fglpk1B79jue1s0HtJ03SyP28x41vVJI="
+      ]
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "oiaGX1HKYPzzuEx0TPRjTS"
+    }
+  ],
+  "notes": "",
+  "record_uid": "pDB-373X7nqjWXdYYAYSGh",
+  "shared_folder_permissions": [],
+  "title": "name-687",
+  "type": "pamRemoteBrowser",
+  "user_permissions": []
+}

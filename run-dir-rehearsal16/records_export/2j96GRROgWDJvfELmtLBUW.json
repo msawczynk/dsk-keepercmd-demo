@@ -1,0 +1,67 @@
+{
+  "custom": [],
+  "fields": [
+    {
+      "label": "name-1168",
+      "required": true,
+      "type": "login",
+      "value": [
+        "name-1290"
+      ]
+    },
+    {
+      "label": "name-1169",
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "label": "name-1149",
+      "type": "script",
+      "value": []
+    },
+    {
+      "label": "name-1234",
+      "type": "secret",
+      "value": []
+    },
+    {
+      "label": "name-1235",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1236",
+      "type": "text",
+      "value": []
+    },
+    {
+      "label": "name-1237",
+      "type": "checkbox",
+      "value": []
+    },
+    {
+      "label": "name-1155",
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "label": "name-1156",
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "EhZ3rO9gDN1yLokQ_Y6VJY"
+    }
+  ],
+  "notes": "",
+  "record_uid": "2j96GRROgWDJvfELmtLBUW",
+  "shared_folder_permissions": [],
+  "title": "name-1127",
+  "type": "pamUser",
+  "user_permissions": []
+}

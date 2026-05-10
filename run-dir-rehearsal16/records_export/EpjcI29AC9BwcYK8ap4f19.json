@@ -1,0 +1,87 @@
+{
+  "custom": [
+    {
+      "label": "name-1335",
+      "type": "text",
+      "value": [
+        "848GL82UMV"
+      ]
+    },
+    {
+      "label": "name-1336",
+      "type": "text",
+      "value": [
+        "4aac747b-36d8-4e25-a28f-19878c9ed213"
+      ]
+    },
+    {
+      "label": "name-1337",
+      "type": "text",
+      "value": [
+        "ES256"
+      ]
+    },
+    {
+      "label": "name-1338",
+      "type": "text",
+      "value": [
+        "App Manager"
+      ]
+    },
+    {
+      "label": "name-1339",
+      "type": "text",
+      "value": [
+        "https://appstoreconnect.apple.com/apps/6758303624/testflight/ios"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "type": "passkey",
+      "value": [
+        {
+          "privateKey": {}
+        }
+      ]
+    },
+    {
+      "type": "login",
+      "value": [
+        "name-1334"
+      ]
+    },
+    {
+      "type": "password",
+      "value": [
+        "redacted-PLACEHOLDER"
+      ]
+    },
+    {
+      "type": "url",
+      "value": [
+        "https://example.test/path-N"
+      ]
+    },
+    {
+      "type": "fileRef",
+      "value": []
+    },
+    {
+      "type": "oneTimeCode",
+      "value": []
+    }
+  ],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "SxK3ynuFdNdK37L8pDiXSG"
+    }
+  ],
+  "notes": "redacted-text-content",
+  "record_uid": "EpjcI29AC9BwcYK8ap4f19",
+  "shared_folder_permissions": [],
+  "title": "name-1015",
+  "type": "login",
+  "user_permissions": []
+}

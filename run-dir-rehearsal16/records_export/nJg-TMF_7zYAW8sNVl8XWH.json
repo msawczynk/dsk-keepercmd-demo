@@ -1,0 +1,100 @@
+{
+  "custom": [
+    {
+      "label": "name-1227",
+      "type": "text",
+      "value": [
+        "server-rdp"
+      ]
+    },
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "keeper-deploy-agent"
+      ]
+    },
+    {
+      "label": "name-1159",
+      "type": "text",
+      "value": [
+        "poc-windows"
+      ]
+    },
+    {
+      "label": "name-1228",
+      "type": "text",
+      "value": [
+        "0.1.1"
+      ]
+    },
+    {
+      "label": "name-1229",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1161",
+      "type": "text",
+      "value": [
+        "installed"
+      ]
+    },
+    {
+      "label": "name-1230",
+      "type": "text",
+      "value": [
+        "0.1.1"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "7"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T14:09:49.209136+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "deleted"
+      ]
+    },
+    {
+      "label": "name-1231",
+      "type": "text",
+      "value": [
+        "now"
+      ]
+    },
+    {
+      "label": "name-1232",
+      "type": "text",
+      "value": [
+        "0.1.0"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "nJg-TMF_7zYAW8sNVl8XWH",
+  "shared_folder_permissions": [],
+  "title": "name-618",
+  "type": "login",
+  "user_permissions": []
+}

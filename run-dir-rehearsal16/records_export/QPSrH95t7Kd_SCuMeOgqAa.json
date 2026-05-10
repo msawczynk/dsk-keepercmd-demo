@@ -1,0 +1,156 @@
+{
+  "custom": [
+    {
+      "label": "name-1157",
+      "type": "text",
+      "value": [
+        "demo-api"
+      ]
+    },
+    {
+      "label": "name-1158",
+      "type": "text",
+      "value": [
+        "1.0.0"
+      ]
+    },
+    {
+      "label": "name-1263",
+      "type": "text",
+      "value": [
+        "linux_amd64"
+      ]
+    },
+    {
+      "label": "name-1264",
+      "type": "text",
+      "value": [
+        "external_ref"
+      ]
+    },
+    {
+      "label": "name-1265",
+      "type": "text",
+      "value": [
+        ""
+      ]
+    },
+    {
+      "label": "name-1266",
+      "type": "text",
+      "value": [
+        "demo-api-1.0.0.deb"
+      ]
+    },
+    {
+      "label": "name-1267",
+      "type": "text",
+      "value": [
+        "15728640"
+      ]
+    },
+    {
+      "label": "name-1268",
+      "type": "text",
+      "value": [
+        "https://github.com/example/demo-api/releases/v1.0.0"
+      ]
+    },
+    {
+      "label": "name-1160",
+      "type": "text",
+      "value": [
+        "sha256:demoapi100"
+      ]
+    },
+    {
+      "label": "name-1269",
+      "type": "text",
+      "value": [
+        "v1.0.0: REST API with health endpoint, systemd service, structured logging"
+      ]
+    },
+    {
+      "label": "name-1270",
+      "type": "text",
+      "value": [
+        "dashboard-setup"
+      ]
+    },
+    {
+      "label": "name-1257",
+      "type": "text",
+      "value": [
+        "true"
+      ]
+    },
+    {
+      "label": "name-1163",
+      "type": "text",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "label": "name-1164",
+      "type": "text",
+      "value": [
+        "2026-03-11T13:33:38.632430+00:00"
+      ]
+    },
+    {
+      "label": "name-1165",
+      "type": "text",
+      "value": [
+        "active"
+      ]
+    },
+    {
+      "label": "name-1319",
+      "type": "text",
+      "value": [
+        "{\"pre_install\": \"apt-get update -qq && apt-get install -y -qq libssl3\", \"install_command\": \"dpkg -i {file} || apt-get install -f -y\", \"post_install\": \"systemctl daemon-reload && systemctl enable demo-api && systemctl restart demo-api\", \"working_dir\": \"/opt/demo-api\"}"
+      ]
+    },
+    {
+      "label": "name-1320",
+      "type": "text",
+      "value": [
+        "{\"type\": \"systemd\", \"name\": \"demo-api\"}"
+      ]
+    },
+    {
+      "label": "name-1321",
+      "type": "text",
+      "value": [
+        "{\"type\": \"http\", \"target\": \"http://localhost:8080/health\", \"timeout\": 10, \"retries\": 5, \"interval\": 3, \"expected_status\": 200}"
+      ]
+    },
+    {
+      "label": "name-1322",
+      "type": "text",
+      "value": [
+        "systemctl stop demo-api && apt-get remove -y demo-api"
+      ]
+    },
+    {
+      "label": "name-1323",
+      "type": "text",
+      "value": [
+        "[\"libssl3\"]"
+      ]
+    }
+  ],
+  "fields": [],
+  "folders": [
+    {
+      "path": "/anon/path-N",
+      "shared_folder_uid": "q9B7pXDHgkOeGcBCfw5U7Z"
+    }
+  ],
+  "record_uid": "QPSrH95t7Kd_SCuMeOgqAa",
+  "shared_folder_permissions": [],
+  "title": "name-620",
+  "type": "login",
+  "user_permissions": []
+}
